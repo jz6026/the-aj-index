@@ -1,0 +1,65 @@
+'''Last Updated September 19, 2026'''
+
+'''''This item is NOT considered a [[Clothing Betas|Clothing Beta]] by most Jammers.'''''
+
+The '''Beard''' was released during the Beta Testing, and was formerly sold at Jam Mart Clothing. It was removed from stores shortly after its initial release. It can be won in the Forgotten Desert, with the exception of the Leap Year, RIM, and Luminous variants.
+
+{| class="article-table article-table-selected" border="0" cellpadding="1" cellspacing="1" style="width: 200px;"
+|-
+! scope="col" |Black & Red/Default
+! scope="col" |Black & White
+! scope="col" |Orange
+! scope="col" |Brown
+! scope="col" | Light Brown
+! scope="col" |Silver
+! scope="col" |Yellow
+! scope="col" |Pink
+|-
+|style="min-width:150px;" |[[File:Beard1.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Beard2.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Beard3.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Beard4.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Beard5.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Beard6.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Beard7.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Beard8.png|thumb|center|120x120px]]
+|-
+|A Few [[Obtainable RIMs|RIMs]]
+|A Few [[Obtainable RIMs|RIMs]]
+|A Few [[Obtainable RIMs|RIMs]]
+|A Few [[Obtainable RIMs|RIMs]]
+|A Few [[Obtainable RIMs|RIMs]]
+|A Few [[Obtainable RIMs|RIMs]]
+|A Few [[Obtainable RIMs|RIMs]]
+|A Few [[Obtainable RIMs|RIMs]]
+|}
+
+==Other Variants==
+
+{| class="article-table article-table-selected" border="0" cellpadding="1" cellspacing="1" style="width: 200px;"
+|-
+! scope="col" |[[Leap Year Items|Leap Year]]
+! scope="col" |[[Obtainable RIMs|Rare Item Monday]]
+! scope="col" |[[Luminous Collection|Luminous]]
+|-
+|style="min-width:150px;" |[[File:LY2012Beard.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:RIMBeard1.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Luminous Beard.png|thumb|center|120x120px]]
+|-
+|Good [[Rare Short Spiked Collar|Short Collar]]
+|1 [[Obtainable RIMs|RIM]]
+|5-10 Diamonds
+|}
+
+
+[[Category:Items]]
+[[Category:Neck Items]]
+[[Category:Clothing Items]]
+[[Category:Member Items]]
+[[Category:Land Items]]
+[[Category:Obtainable Through The Forgotten Desert]]
+[[Category:Steady Value]]
+[[Category:Unobtainable Through The Forgotten Desert]]
+[[Category:Unobtainable Through Adventures]]
+[[Category:Adventure Items]]
+[[Category:Obtainable Through Adventures]]
