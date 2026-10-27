@@ -1,7 +1,13 @@
-# AJ Worth Lookup
+# The AJ Index
 
-Fast Animal Jam Classic item values, pulled from the
-[AJ Item Worth Wiki](https://aj-item-worth.fandom.com) through its MediaWiki API.
+Quick trade help for Animal Jam Classic, so you're not frantically searching the worth wiki
+while someone's waiting on you. Everything comes from the
+[AJ Item Worth Wiki](https://aj-item-worth.fandom.com) (pulled through its API).
+Check out [ROADMAP.md](ROADMAP.md) for where this is going.
+
+> Just a fan project, not affiliated with WildWorks. All the values come from the
+> AJ Item Worth Wiki and its editors, whose work is shared under
+> [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0/). Huge thanks to them!
 
 ## Setup (Mac)
 
@@ -30,6 +36,15 @@ python3 -m ajworth.comments                  # every item (slow on purpose: 1 re
 python3 -m ajworth.comments --sample 20      # spot-check 20 stored comments and their tags
 ```
 
+My own comment classifier (needs comments collected first):
+
+```bash
+python3 -m ajworth.label                 # label comments by hand; Enter = agree with the guess
+python3 -m ajworth.label --stats         # how many of each label so far
+python3 -m ajworth.train --explain       # train, score vs the rules, show what it learned
+python3 -m ajworth.train --try "pink and yellow for ur art easel?"
+```
+
 Outputs:
 - `data/worth.db` — SQLite database. `worth_snapshots` keeps every value ever seen,
   tagged with the wiki revision it came from. `current_worth` is the latest value per variant.
@@ -44,6 +59,8 @@ Outputs:
 | `ajworth/store.py` | Saves to SQLite; only writes new rows when a page actually changed, so history builds up for trend charts |
 | `ajworth/comments.py` | Pages through each item's comments, scrubs usernames, stores them; re-runs only fetch what's new |
 | `ajworth/tagger.py` | Rule-based tags: sale / sold / iso / trade / question, plus diamond and gem prices. The baseline a trained model has to beat |
+| `ajworth/label.py` | Quick hand-labeling, one comment at a time, saved to `data/labels.csv` |
+| `ajworth/train.py` | My classifier: word + letter-chunk counts → logistic regression, tested on held-out labels against the rules |
 
 ### Comments data
 

@@ -1,0 +1,44 @@
+# The AJ Index: Roadmap
+
+**The idea:** when you're mid-trade and someone's waiting on you, you shouldn't have to dig
+through the worth wiki. This tells you what the AJ Item Worth Wiki says about both sides in
+seconds, and gets smarter over time by learning from real trades.
+
+## Done
+- [x] Wiki fetcher + parser: grabs every item's worth (every color too) and keeps the history
+- [x] Comments fetcher: pulls listings, sales and trades from item comment sections (usernames stripped out)
+- [x] Simple tagger: sorts comments into sale / sold / trade / ISO / question and pulls out dim + gem prices. This is the baseline the ML model has to beat
+- [x] 31 tests
+
+## v1: Trade chatbot (ship this first!)
+- [ ] **Item name matching:** nobody types full item names, so it needs to get slang like "blk long", "cb", "rim beard" and figure out the exact item + color
+- [ ] **Chatbot:** tell it the trade → it looks up both sides → quotes the wiki values exactly → gives a recommendation
+  - Never makes up a value, only uses what the wiki says
+  - Short answers since you're mid-trade, and always ends with "double-check before you accept"
+  - Sticks to trading talk and doesn't ask for any personal info
+- [ ] **Website** with the chat, a shoutout to the wiki, and a note that it's unofficial
+- [ ] **Go live:** data refreshes on its own, item values load fast (S3 + CDN), limits on how much each person can chat
+
+## v2: Learning real rankings
+- [x] Labeling tool + my own classifier (word counts + logistic regression, built with scikit-learn) that gets scored against the rules
+- [ ] Label a few hundred comments by hand (can chip away at this anytime)
+- [ ] Train on the real labels and see if my model actually beats the rules
+- [ ] Pull out *which* items are traded for which (slang dictionary + rules, with the model sorting comment types)
+- [ ] Maybe: fine-tune a Hugging Face model too and compare all three
+- [ ] Elo-style rankings: every item starts where the wiki puts it, then real trades move it up or down
+  - Every item gets its own rank (because not all den betas are equal lol)
+  - Shows how confident it is, and newer trades count more
+  - Tested against the wiki's own tiers to see if it actually does better
+- [ ] Value trend charts (what happens after re-releases, crashes, etc.)
+- [ ] Chatbot shows the wiki value AND the learned rank, and explains when they don't match
+
+## Later
+- [ ] Let people log their own trades on the site (no accounts or usernames, weird outliers get flagged)
+- [ ] Inventory tracking
+- [ ] Move everything to the cloud with Postgres + Docker
+
+## Ground rules
+- **Credit the wiki:** its content is CC BY-SA, so the site credits the AJ Item Worth Wiki and anything built from its text gets shared under the same license
+- **Unofficial fan project:** not affiliated with WildWorks, no copied game art or logos (link to images instead)
+- **No usernames, ever:** lots of players are kids
+- Reach out to the wiki admins / Discord before launching
