@@ -107,3 +107,15 @@ def test_page_without_tables():
     assert page.variants == []
     assert page.last_updated is None
     assert page.categories == [ "Other Pages" ]
+
+
+def test_header_cells_styled_as_normal_cells():
+    """Cupid Wings: the Glossy + Non-Glossy tables use | cells (styled bold) for the colors."""
+    page = parse_page( "Cupid Wings", ( FIXTURES / "cupid_wings.wikitext" ).read_text() )
+    by_section = {}
+    for v in page.variants:
+        by_section.setdefault( v.section, {} )[ v.variant ] = v.worth_raw
+    assert by_section[ "Glossy Cupid Wings" ][ "Tan" ] == "25 Black Long Collars"
+    assert by_section[ "Non-Glossy Cupid Wings" ][ "White" ] == "5-10 Diamonds"     # the one ! cell in a | row
+    assert len( by_section[ "Other Variants" ] ) == 9
+    assert len( page.variants ) == 24

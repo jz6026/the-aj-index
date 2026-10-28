@@ -1,0 +1,118 @@
+''Last Updated October 26, 2026''
+{{Warning|Be careful when trading or shopping for the Glossy Cupid Wings, which will have a white shine instead of a light-colored shine. The exceptions are the black Glossy Cupid Wings with a light gray shine, and white Glossy Cupid Wings which do not exist. Check colors closely, and use the highlighted boxes to compare the shine colors between the Glossy and non-Glossy Cupid Wings.}}
+
+''See [[Magenta Items|Magenta Cupid Wings]], [[Contest and Event Items#Rare Hot Magenta (Pink) Items|Rare Hot Magenta Cupid Wings]], & [[Contest and Event Items#Bright Red Items|Rare Bright Red Cupid Wings]].
+
+==Glossy Cupid Wings==
+The '''Cupid Wings''' were initially released in Jam Mart Clothing on February 6, 2014, and left sometime in 2014. On this initial release they had a "glossy" white shine, except for the black variety with a light gray shine. These varieties came to be known as the "glossy Cupid Wings," or "glossies," by the Animal Jam Community. There is no white variety of the Glossy Cupid Wings.
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 200px;"
+|-
+| style="background-color: #b3b3b3;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Black/Default</span>
+| style="background-color: #ffffff;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Blue</span>
+| style="background-color: #ffffff;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Pink</span>
+| style="background-color: #ffffff;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Purple</span>
+| style="background-color: #ffffff;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Red</span>
+| style="background-color: #ffffff;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Green</span>
+| style="background-color: #ffffff;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Tan</span>
+|-
+|style="min-width:150px;" |[[File:GlossCupidWings1.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:GlossCupidWings3.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:GlossCupidWings2.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:GlossCupidWings4.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:GlossCupidWings5.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:GlossCupidWings6.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:GlossCupidWings7.png|thumb|center|150x150px]]
+|-
+|3 Black [[Rare Long Spiked Collar|Long Collar]]
+|4 Black [[Rare Long Spiked Collar|Long Collars]]
+|8 Black [[Rare Long Spiked Collar|Long Collars]], maybe more
+|12 Black [[Rare Long Spiked Collar|Long Collars]]
+|15 Black [[Rare Long Spiked Collar|Long Collars]]
+|18 Black [[Rare Long Spiked Collar|Long Collars]]
+|25 Black [[Rare Long Spiked Collar|Long Collars]]
+|}
+
+==Non-Glossy Cupid Wings==
+{{ClothingBeta}}
+
+
+The '''Cupid Wings''' were most recently released in Jam Mart Clothing on February 11, 2015, and left sometime in 2015. On this second release their "glossy" shine was replaced with a duller, light-colored shine. The non-Glossy Cupid Wings are considered to be Clothing Betas by the Animal Jam Community.
+{| class="article-table" border="0" cellpadding="1" cellspacing="1"
+|-
+| style="background-color: #999999;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Black/Default</span>
+| style="background-color: #cdeff9;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Blue</span>
+| style="background-color: #eed8e5;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Pink</span>
+| style="background-color: #bcb2cb;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Purple</span>
+| style="background-color: #ed8383;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Red</span>
+| style="background-color: #d2de9e;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Green</span>
+| style="background-color: #deaa9f;" |<span style="nunito; color: #000000; font-size: 11pt; font-weight: bold">Tan</span>
+! scope="col" |White
+|-
+|style="min-width:150px;" |[[File:NonGlossCupidWings1.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings3.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings2.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings4.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings61.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings5.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings7.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings8.png|thumb|center|150x150px]]
+|-
+|5-10 Diamonds
+|5-10 Diamonds
+|5-10 Diamonds
+|5-10 Diamonds
+|5-10 Diamonds
+|5-10 Diamonds
+|5-10 Diamonds
+|5-10 Diamonds
+|}
+
+==Other Variants==
+{| class="article-table" border="0" cellspacing="1" cellpadding="1" style="width:200px;"
+|-
+! scope="col" |[[Unobtainable Land RIMs|Rare Item Monday]]
+! scope="col" |[[Forever Friends Collection|Rose Gold]]
+! scope="col" |[[Haunted Happenings Bundle|Crimson Moon Wings]]
+! scope="col" |[[Sweet Tooth Collection|Watermelon]]
+! scope="col" |[[Sweet Tooth Collection|Blue Raspberry]]
+! scope="col" |[[Sweet Tooth Collection|Sour Apple]]
+! scope="col" |[[Blueberry Harvest Bundle|Blueberry]]
+! scope="col" |[[Costume Critters Collection|Costumed Cupid Wings]]
+! scope="col" |[[Fall Friends Bundle|Crow Feather Wings]]
+|-
+|style="min-width:150px;" |[[File:RIMCupidWings.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:Rose Gold Cupid Wings.png|center|150x150px|thumb]]
+|style="min-width:150px;" |[[File:Crimson Moon Wings.png|center|150x150px|thumb]]
+|style="min-width:150px;" |[[File:Watermelon Gummy Wings.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:Blue Raspberry Gummy Wings.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:Sour Apple Gummy Wings.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:Blueberry Cupid Wings.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:Costumed Cupid Wings.png|thumb|center|150x150px]]
+|style="min-width:150px;" |[[File:Crow Feather Wings.png|thumb|center|150x150px]]
+|-
+|Decent [[Rare Long Spiked Collar|Long Collar]]
+|Black [[Rare Long Spiked Wristband|Long Wrist]]
+|Decent [[Rare Short Spiked Collar|Short Collar]]
+|10-15 Diamonds
+|10-15 Diamonds
+|10-15 Diamonds
+|Good [[Rare Short Spiked Collar|Short Collar]]
+|Good [[Rare Long Spiked Wristband|Long Wrist]]
+|Decent [[Rare Short Spiked Collar|Short Collar]]
+|}
+
+[[Category:Items]]
+[[Category:Clothing Items]]
+[[Category:Back Items]]
+[[Category:Member Items]]
+[[Category:Land Items]]
+[[Category:Friendship Festival]]
+[[Category:Night of the Phantoms]]
+[[Category:Obtainable Through The Forgotten Desert]]
+[[Category:Unobtainable Through Adventures]]
+[[Category:Unobtainable Through The Forgotten Desert]]
+[[Category:Obtainable Through Adventures]]
+[[Category:Scam Warning]]
+[[Category:Diamond Items]]
+[[Category:Wild Weekend]]
+[[Category:Bundles]]

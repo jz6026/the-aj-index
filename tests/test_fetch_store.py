@@ -65,3 +65,18 @@ def test_history_accumulates_only_on_change( tmp_path, db_target ):
     n = store.export_json( conn, tmp_path / "items.json" )
     assert n == 11
     assert ( "A Few RIMs", 8 ) in store.label_counts( conn )
+
+
+def test_reparse_fixes_old_values_without_downloading( tmp_path, db_target ):
+    from ajworth.parse import parse_page
+    conn = store.connect( db_target )
+    text = ( Path( __file__ ).parent / "fixtures" / "cupid_wings.wikitext" ).read_text()
+    # pretend an older parser only found the "Other Variants" table
+    old = parse_page( "Cupid Wings", text )
+    old.variants = [ v for v in old.variants if v.section == "Other Variants" ]
+    store.save_page( conn, old, 7, None, wikitext=text )
+    assert conn.execute( "SELECT COUNT(*) FROM current_worth" ).fetchone()[ 0 ] == 9
+
+    assert store.reparse( conn, parse_page ) == 1
+    assert conn.execute( "SELECT COUNT(*) FROM current_worth" ).fetchone()[ 0 ] == 24
+    assert store.reparse( conn, parse_page ) == 0                 # nothing left to fix

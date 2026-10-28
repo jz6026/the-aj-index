@@ -60,7 +60,11 @@ def load( path: Path ) -> tuple[ list[ str ], list[ bool ], list[ str ] ]:
     return texts, replies, labels
 
 
-def evaluate( texts, replies, labels, seed: int = 0, explain: bool = False, out=print ):
+def evaluate( texts, replies, labels, seed: int = 0, explain: bool = False, out=print,
+              rules=None, noun: str = "comments" ):
+    """rules( text, is_reply ) -> label is the baseline to beat (default: the comment tagger).
+    chat.py reuses this with its own rules."""
+    rules = rules or ( lambda t, r: tag( t, r ).kind )
     from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
     from sklearn.model_selection import train_test_split
 
@@ -77,10 +81,10 @@ def evaluate( texts, replies, labels, seed: int = 0, explain: bool = False, out=
 
     y_true = [ labels[ i ] for i in te ]
     y_model = list( model.predict( [ X[ i ] for i in te ] ) )
-    y_rules = [ tag( texts[ i ], replies[ i ] ).kind for i in te ]
+    y_rules = [ rules( texts[ i ], replies[ i ] ) for i in te ]
 
     acc_rules, acc_model = accuracy_score( y_true, y_rules ), accuracy_score( y_true, y_model )
-    out( f"Trained on {len(tr)} comments, tested on {len(te)} it never saw.\n" )
+    out( f"Trained on {len(tr)} {noun}, tested on {len(te)} it never saw.\n" )
     out( f"  rules accuracy:     {acc_rules:6.1%}" )
     out( f"  my model accuracy:  {acc_model:6.1%}\n" )
 
@@ -93,7 +97,7 @@ def evaluate( texts, replies, labels, seed: int = 0, explain: bool = False, out=
 
     misses = [ ( texts[ i ], labels[ i ], p ) for i, p in zip( te, y_model ) if p != labels[ i ] ]
     if misses:
-        out( "\nSome comments it got wrong (you said → model said):" )
+        out( f"\nSome {noun} it got wrong (you said → model said):" )
         for t, y, p in misses[ :8 ]:
             out( f"  {y:>8} → {p:<8} {t[:70]!r}" )
 

@@ -4,6 +4,7 @@ Usage (from the project folder):
     python3 -m ajworth.fetch                 # full refresh
     python3 -m ajworth.fetch --limit 20      # quick test on 20 pages
     python3 -m ajworth.fetch --labels        # list every worth label in the database
+    python3 -m ajworth.fetch --reparse       # re-read saved pages after parse.py changes (no downloading)
 
 It tries to be a good guest: says who it is, waits between requests, backs off
 when the wiki is busy, and only re-reads pages that actually changed.
@@ -99,12 +100,20 @@ def main():
     ap.add_argument( "--json", default="data/items.json", help="lookup cache to write" )
     ap.add_argument( "--limit", type=int, help="only fetch the first N pages (for testing)" )
     ap.add_argument( "--labels", action="store_true", help="print worth labels and exit" )
+    ap.add_argument( "--reparse", action="store_true",
+                     help="re-read the saved pages with the current parser (no downloading), then exit" )
     args = ap.parse_args()
 
     conn = store.connect( args.db )
     if args.labels:
         for label, n in store.label_counts( conn ):
             print( f"{n:6}  {label}" )
+        return
+
+    if args.reparse:
+        n = store.reparse( conn, parse_page )
+        print( f"Re-read the saved pages: {n} changed. "
+               f"{store.export_json( conn, args.json )} current values written to {args.json}" )
         return
 
     stats = refresh( conn, Wiki(), limit=args.limit )

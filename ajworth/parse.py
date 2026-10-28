@@ -157,12 +157,22 @@ def _raw_tables( wikitext: str ):
             current[ 1 ][ -1 ] += " " + line                # cell text spilled onto the next line
 
 
+def _is_pic_row( cells: list[ str ] ) -> bool:
+    return bool( cells ) and all( FILE_RE.search( c ) for c in cells )
+
+
 def table_groups( wikitext: str ) -> list[ Group ]:
     """Every header group on the page, with pictures and text rows sorted out."""
     groups: list[ Group ] = []
     for section, rows in _raw_tables( wikitext ):
         current: Group | None = None
-        for kind, cells in rows:
+        for n, ( kind, cells ) in enumerate( rows ):
+            # Some tables style normal | cells to LOOK like headers (Cupid Wings' glossy table).
+            # A text row counts as the header if the pictures come right after it and no
+            # header is still waiting for its pictures.
+            if kind == "data" and ( current is None or current.seen_pics ) and _is_pic_row( cells ) is False \
+               and n + 1 < len( rows ) and _is_pic_row( rows[ n + 1 ][ 1 ] ):
+                kind = "header"
             if kind == "header":
                 headers = [ clean( c ) for c in cells ]
                 current = Group( section, headers, [ None ] * len( headers ), [], [] )
@@ -170,9 +180,8 @@ def table_groups( wikitext: str ) -> list[ Group ]:
                 continue
             if current is None:
                 continue
-            files = [ FILE_RE.search( c ) for c in cells ]
-            if cells and all( files ):
-                current.images = [ f.group( 1 ).strip() for f in files ]
+            if _is_pic_row( cells ):
+                current.images = [ FILE_RE.search( c ).group( 1 ).strip() for c in cells ]
                 current.seen_pics = True
                 continue
             cleaned = [ clean( c ) for c in cells ]

@@ -230,10 +230,13 @@ class Ladder:
         """Uses the saved ladder if there is one (fast), otherwise builds it from the database."""
         p = Path( path )
         if p.exists():
-            return cls.from_json( p.read_text() )
+            saved = cls.from_json( p.read_text() )
+            if saved.anchors:                  # an empty save is useless, rebuild instead
+                return saved
         ladder = cls.from_pages( store.all_wikitext( conn ) )
-        p.parent.mkdir( parents=True, exist_ok=True )
-        p.write_text( ladder.to_json() )
+        if ladder.anchors:                     # don't save an empty ladder (counter pages not fetched yet)
+            p.parent.mkdir( parents=True, exist_ok=True )
+            p.write_text( ladder.to_json() )
         return ladder
 
 

@@ -11,10 +11,16 @@
     input { font: inherit; padding: .4rem; width: 100%; box-sizing: border-box; }
     li button { font: inherit; background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
     small { color: #666; }
+    pre { white-space: pre-wrap; font: inherit; }
   </style>
 </head>
 <body>
   <h1>The AJ Index</h1>
+  <form id="chat">
+    <input id="msg" placeholder="my blk long for 2 bad longs" maxlength="300" autocomplete="off">
+  </form>
+  <pre id="reply"></pre>
+  <hr>
   <input id="q" placeholder="search an item, like beard" autocomplete="off">
   <ul id="results"></ul>
   <div id="item"></div>
@@ -24,6 +30,20 @@
   <script>
     const $ = ( id ) => document.getElementById( id );
     let timer;
+
+    $( "chat" ).addEventListener( "submit", async ( e ) => {
+      e.preventDefault();
+      const message = $( "msg" ).value.trim();
+      if ( !message ) return;
+      $( "reply" ).textContent = "...";
+      const res = await fetch( "/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify( { message } ),
+      } );
+      const data = await res.json();
+      $( "reply" ).textContent = res.ok ? data.text : "hmm, that didn't work. try a shorter message?";
+    } );
 
     $( "q" ).addEventListener( "input", () => {
       clearTimeout( timer );                       // wait till they stop typing for a sec

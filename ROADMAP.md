@@ -19,10 +19,12 @@ seconds, and gets smarter over time by learning from real trades.
   - Never makes up a value, only uses what the wiki says
   - Short answers since you're mid-trade, and always ends with "double-check before you accept"
   - Sticks to trading talk and doesn't ask for any personal info
+  - My own intent model (word counts + logistic regression) figures out what the message wants; answers come from trade.py
 - [ ] **Website** with the chat, a shoutout to the wiki, and a note that it's unofficial
 - [x] **Cloud setup:** Docker + Postgres, AWS stack (ECS + RDS + S3/CloudFront) with a daily wiki refresh. See [DEPLOY.md](DEPLOY.md)
 - [x] API: item search + lookup, and `/api/trade` so the website can use the trade checker
-- [ ] **Go live:** first real deploy, limits on how much each person can chat
+- [x] First deploy on AWS
+- [ ] **Go live:** limits on how much each person can chat, then announce on Discord
 
 ## v2: Learning real rankings
 - [x] Labeling tool + my own classifier (word counts + logistic regression, built with scikit-learn) that gets scored against the rules
@@ -36,6 +38,7 @@ seconds, and gets smarter over time by learning from real trades.
   - Tested against the wiki's own tiers to see if it actually does better
 - [ ] Value trend charts (what happens after re-releases, crashes, etc.)
 - [ ] Chatbot shows the wiki value AND the learned rank, and explains when they don't match
+- [ ] Market behavior model: which uneven trades actually go through, so trade warnings can say "trades like this happen, but they're uneven" (learned from all trades, never guessing anyone's age)
 - [ ] **Talk:** a free discussion board (price checks, "is this fair?" posts with trade cards)
   - Anonymous animal names ("a sleepy otter"), no profiles, no DMs, everything stays public
   - Filter on every post like AJ's chat: blocks phone numbers, emails, links, "add me on ___"

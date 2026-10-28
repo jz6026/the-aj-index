@@ -96,11 +96,17 @@ class Entry:
     variant: str
     section: str
     worth_raw: str
-    words: set[ str ] = field( default_factory=set )
+    words: set[ str ] = field( default_factory=set )       # title + color + section words
+    base: set[ str ] = field( default_factory=set )        # just title + color
 
     @property
     def name( self ) -> str:
-        return f"{self.title} - {self.variant}" if self.variant else self.title
+        name = f"{self.title} - {self.variant}" if self.variant else self.title
+        # pages with several tables ("Glossy Cupid Wings" vs "Non-Glossy Cupid Wings") need the
+        # section in the name, or "which one?" would list two identical names
+        if self.section and self.section.lower() not in ( "other variants", "variants" ):
+            name += f" ({self.section})"
+        return name
 
 
 @dataclass
@@ -134,7 +140,10 @@ class Matcher:
         self.entries = entries
         self.aliases = aliases or {}          # normalized alias -> ( title, variant or None )
         for e in entries:
-            e.words = set( words( f"{e.title} {e.variant.replace( '/', ' ' )}" ) )
+            e.base = set( words( f"{e.title} {e.variant.replace( '/', ' ' )}" ) )
+            # the section's words can be typed too ("glossy black cupid wings"), but they
+            # don't count as leftovers when ranking, so plain "beard" still sees every color
+            e.words = e.base | set( words( e.section.replace( '/', ' ' ) ) )
         self.vocab = sorted( { w for e in entries for w in e.words } )
 
     @classmethod
@@ -181,9 +190,14 @@ class Matcher:
         if not fits:
             return Match( query, None, [], False )
         # fewest leftover words = closest fit ("pink beard" beats "pink beard hat")
-        fits.sort( key=lambda e: ( len( e.words - need ), len( e.title ) ) )
-        best_extra = len( fits[ 0 ].words - need )
-        top = [ e for e in fits if len( e.words - need ) == best_extra ]
+        fits.sort( key=lambda e: ( len( e.base - need ), len( e.title ) ) )
+        best_extra = len( fits[ 0 ].base - need )
+        top = [ e for e in fits if len( e.base - need ) == best_extra ]
+        # typed a section word ("glossy")? then the closest section wins, so
+        # "glossy" picks Glossy Cupid Wings over Non-Glossy Cupid Wings
+        if any( need - e.base for e in top ):
+            closest = min( len( e.words - need ) for e in top )
+            top = [ e for e in top if len( e.words - need ) == closest ]
 
         # same item title for all of them? then it's just "which color", and if
         # every color is worth the same on the wiki we don't even need to ask

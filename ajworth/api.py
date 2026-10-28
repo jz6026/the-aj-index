@@ -1,6 +1,5 @@
-"""The website's backend: look up items, and check trades with trade.py.
-Values always come back exactly as the wiki writes them. The v1 chatbot will plug in here
-later (an /api/chat route).
+"""The website's backend: look up items, check trades with trade.py, and the chatbot
+(/api/chat, see chat.py). Values always come back exactly as the wiki writes them.
 
 Run it locally:
     uvicorn ajworth.api:app --reload           # then open http://localhost:8000/docs
@@ -15,8 +14,10 @@ import time
 from urllib.parse import quote
 
 from fastapi import Depends, FastAPI, HTTPException, Query
+from pydantic import BaseModel, Field
 
 from . import db, store
+from .chat import MAX_LEN, Intents, respond
 from .ladder import Ladder
 from .match import Matcher
 from .trade import check
@@ -104,3 +105,19 @@ def check_trade( q: str = Query( ..., min_length=3, max_length=300 ), conn=Depen
     """Like `python3 -m ajworth.trade`: q is the trade as you'd type it, like "my beard for 2 blk longs"."""
     matcher, ladder = trade_tools( conn )
     return { **check( q, matcher, ladder ).to_dict(), "credit": CREDIT }
+
+
+# ---------------------------------------------------------------- chatbot
+
+_intents = Intents.load()      # my model if it's trained and beat the rules, otherwise the rules
+
+
+class ChatIn( BaseModel ):
+    message: str = Field( ..., min_length=1, max_length=MAX_LEN )
+
+
+@app.post( "/api/chat" )
+def chat( body: ChatIn, conn=Depends( get_conn ) ):
+    """One message in, one reply out. Nothing gets saved (no logs of what people type yet)."""
+    matcher, ladder = trade_tools( conn )
+    return { **respond( body.message, matcher, ladder, _intents ).to_dict(), "credit": CREDIT }

@@ -96,6 +96,35 @@ def save_page( conn: sqlite3.Connection, page: ItemPage, rev_id: int, rev_timest
     return True
 
 
+def reparse( conn, parse ) -> int:
+    """Re-reads every saved page with the current parser (no downloading) and fixes up
+    the values for its newest version. For when parse.py gets smarter, like the Cupid Wings
+    fix. Older versions' history stays as it was. Returns how many pages changed."""
+    changed = 0
+    now = datetime.now( timezone.utc ).isoformat( timespec="seconds" )
+    pages = conn.execute( "SELECT title, rev_id, rev_timestamp, wikitext FROM pages "
+                          "WHERE wikitext IS NOT NULL" ).fetchall()
+    for title, rev_id, rev_ts, text in pages:
+        page = parse( title, text )
+        new = sorted( ( v.section, v.variant, v.worth_raw, v.image or "" ) for v in page.variants )
+        old = sorted( ( r[ 0 ], r[ 1 ], r[ 2 ], r[ 3 ] or "" ) for r in conn.execute(
+            "SELECT section, variant, worth_raw, image FROM worth_snapshots WHERE title = ? AND rev_id = ?",
+            ( title, rev_id ) ) )
+        if new == old:
+            continue
+        conn.execute( "DELETE FROM worth_snapshots WHERE title = ? AND rev_id = ?", ( title, rev_id ) )
+        conn.executemany(
+            """INSERT INTO worth_snapshots
+               (title, section, variant, worth_raw, image, rev_id, rev_timestamp, last_updated, fetched_at)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+            [ ( title, v.section, v.variant, v.worth_raw, v.image, rev_id, rev_ts, page.last_updated, now )
+              for v in page.variants ],
+        )
+        changed += 1
+    conn.commit()
+    return changed
+
+
 def all_wikitext( conn: sqlite3.Connection ) -> dict[ str, str ]:
     """Every saved page's raw text, by title."""
     return { r[ "title" ]: r[ "wikitext" ] for r in conn.execute(

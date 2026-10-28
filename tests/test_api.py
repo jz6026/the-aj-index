@@ -45,3 +45,12 @@ def test_trade_check_goes_through_trade_py( db_target, monkeypatch ):
     assert r[ "verdict" ] and r[ "message" ]
     assert r[ "give" ][ 0 ][ "text" ] and r[ "get" ][ 0 ][ "text" ]
     assert "CC BY-SA" in r[ "credit" ]
+
+
+def test_chat( db_target, monkeypatch ):
+    c = client_with_beard( db_target, monkeypatch )
+    r = c.post( "/api/chat", json={ "message": "whats a pink beard worth" } ).json()
+    assert r[ "intent" ] == "lookup" and '"A Few RIMs"' in r[ "text" ]
+    r = c.post( "/api/chat", json={ "message": "add me on discord" } ).json()
+    assert r[ "decided_by" ] == "guard"
+    assert c.post( "/api/chat", json={ "message": "x" * 301 } ).status_code == 422   # too long

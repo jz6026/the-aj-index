@@ -101,3 +101,15 @@ def test_needs_more_info( world ):
     assert r.verdict == "unsure"
     assert any( "Which one" in n for n in r.notes )
     assert "double-check before you accept" in render( r )
+
+
+def test_glossy_vs_non_glossy_cupid_wings():
+    pages = { "Cupid Wings": ( FIXTURES / "cupid_wings.wikitext" ).read_text() }
+    entries = [ Entry( t, v.variant, v.section, v.worth_raw ) for t, txt in pages.items()
+                for v in parse_page( t, txt ).variants ]
+    m = Matcher( entries, {} )
+    assert m.find( "black cupid wings" ).needs_color                    # worth very different things: ask
+    assert m.find( "glossy black cupid wings" ).best.worth_raw == "3 Black Long Collar"
+    assert m.find( "non glossy black cupid wings" ).best.worth_raw == "5-10 Diamonds"
+    assert m.find( "rim cupid wings" ).best.worth_raw == "Decent Long Collar"
+    assert "(Glossy Cupid Wings)" in m.find( "glossy tan cupid wings" ).best.name

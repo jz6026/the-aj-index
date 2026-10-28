@@ -68,6 +68,18 @@ Outputs:
   tagged with the wiki revision it came from. `current_worth` is the latest value per variant.
 - `data/items.json` — current values as one file: the instant, offline lookup cache.
 
+## Chatbot
+
+```bash
+python3 -m ajworth.chat "my blk long for 2 bad longs"   # one message
+python3 -m ajworth.chat                                 # chat back and forth
+python3 -m ajworth.chat --label                         # label real messages for training
+python3 -m ajworth.chat --train                         # train my intent model vs the rules
+```
+
+Starter examples live in `ajworth/chat_examples.csv` (add more anytime!). My labels go in
+`data/chat_labels.csv`. The chatbot only switches to my model once it beats the rules.
+
 ## Website + database (Docker)
 
 Needs [Docker Desktop](https://www.docker.com/products/docker-desktop/). This runs the site the
@@ -106,6 +118,7 @@ Putting it on AWS: see [DEPLOY.md](DEPLOY.md).
 | `ajworth/tagger.py` | Rule-based tags: sale / sold / iso / trade / question, plus diamond and gem prices. The baseline a trained model has to beat |
 | `ajworth/label.py` | Quick hand-labeling, one comment at a time, saved to `data/labels.csv` |
 | `ajworth/train.py` | My classifier: word + letter-chunk counts → logistic regression, tested on held-out labels against the rules |
+| `ajworth/chat.py` | The chatbot: my own intent model (or the rules until it wins) decides what a message wants, then trade.py answers. Blocks usernames/contact info |
 | `ajworth/db.py` | Opens SQLite or Postgres, so the same code runs on my Mac and on AWS |
 | `ajworth/api.py` | The website's backend (FastAPI): item search, item lookup, and `/api/trade` (runs trade.py). Chatbot goes here later |
 | `web/` | Placeholder page (design TBD!) + the local nginx setup that stands in for CloudFront |
