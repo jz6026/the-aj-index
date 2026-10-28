@@ -10,6 +10,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 COPY ajworth ./ajworth
+RUN chmod -R a+rX /app/ajworth   # some files on my Mac are owner-only, so let the app user read them
 
 # don't run as root inside the container
 RUN useradd --create-home app && mkdir -p /app/data && chown app /app/data   # fetch.py writes its JSON cache here
