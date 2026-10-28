@@ -1,0 +1,71 @@
+''Last Updated August 17, 2026''
+
+{{Template:PrizeRemoval}}
+
+
+'''Related Links:'''
+*''[[Rare Long Spiked Collar|Rare Long Spiked Collars]]''
+*''[[Rare Short Spiked Wristband|Rare Short Spiked Wristbands]]''
+*''[[Rare Long Spiked Wristband|Rare Long Spiked Wristbands]]''
+*''[[Diamond Shop Spiked Collars]]''
+*''[[Magenta Items|Magenta Rare Short Spiked Collar]]''
+
+''Not to be confused with the [[Spectacular Spikes Collection]].''
+
+The '''Rare Short Spiked Collar''' was released as one of the Monthly Member Gifts.
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 800px;"
+|-
+! scope="col" |Orange
+! scope="col" |Green
+! scope="col" |Yellow
+! scope="col" |Blue
+! scope="col" |Purple
+! scope="col" |Pink
+! scope="col" |Red
+! scope="col" |Black
+|-
+|style="min-width:150px;" |[[File:Orangeshortt.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Greenshort.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Yellowshort.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Blueshort.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Purpleshort.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Pinkshort.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Redshort.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Blackshort.png|thumb|center|150px]]
+|-
+|3 Bad [[Rare Long Spiked Wristband|Long Wrists]]
+|3 Bad [[Rare Long Spiked Wristband|Long Wrists]]
+|3 Decent [[Rare Long Spiked Wristband|Long Wrists]]
+|3 Good [[Rare Long Spiked Wristband|Long Wrists]]
+|3-4 Good [[Rare Long Spiked Wristband|Long Wrists]]
+|4 Good [[Rare Long Spiked Wristband|Long Wrists]]
+|4 Good [[Rare Long Spiked Wristband|Long Wrists]]
+|1 Good Short Collar + 1 Bad Short Collar
+|-
+|60-65 Diamonds
+|60-65 Diamonds
+|65-70 Diamonds
+|80-95 Diamonds
+|95-110 Diamonds
+|120-130 Diamonds
+|110-130 Diamonds
+|160-180 Diamonds
+|-
+|Bad
+|Bad
+|Decent
+|Decent
+|Good
+|Good
+|Good
+|Best
+|}
+
+
+[[Category:Spikes]]
+[[Category:Items]]
+[[Category:Clothing Items]]
+[[Category:Neck Items]]
+[[Category:Member Items]]
+[[Category:Land Items]]
+[[Category:Steady Value]]

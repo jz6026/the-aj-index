@@ -11,7 +11,10 @@ seconds, and gets smarter over time by learning from real trades.
 - [x] 31 tests
 
 ## v1: Trade chatbot (ship this first!)
-- [ ] **Item name matching:** nobody types full item names, so it needs to get slang like "blk long", "cb", "rim beard" and figure out the exact item + color
+- [x] **Value ladder:** built from the wiki's own counter pages (RIMs → betas → wrists → short collars → long collars), so comparing two values is "exactly what the wiki says"
+  - Diamond-priced items and RIM swaps are different kinds of deals, so the chatbot explains instead of comparing when they're mixed
+- [x] **Trade check** (`trade.py`): give/get sides, wiki values quoted word for word, short verdict, warnings
+- [x] **Item name matching:** nobody types full item names, so it needs to get slang like "blk long", "cb", "rim beard" and figure out the exact item + color
 - [ ] **Chatbot:** tell it the trade → it looks up both sides → quotes the wiki values exactly → gives a recommendation
   - Never makes up a value, only uses what the wiki says
   - Short answers since you're mid-trade, and always ends with "double-check before you accept"
@@ -31,6 +34,12 @@ seconds, and gets smarter over time by learning from real trades.
   - Tested against the wiki's own tiers to see if it actually does better
 - [ ] Value trend charts (what happens after re-releases, crashes, etc.)
 - [ ] Chatbot shows the wiki value AND the learned rank, and explains when they don't match
+- [ ] **Talk:** a free discussion board (price checks, "is this fair?" posts with trade cards)
+  - Anonymous animal names ("a sleepy otter"), no profiles, no DMs, everything stays public
+  - Filter on every post like AJ's chat: blocks phone numbers, emails, links, "add me on ___"
+  - Report button, and posts auto-hide after a few reports until I check them
+  - Rate limits (like 1 post a minute) + an automatic toxicity check before posting
+  - Posts here are fair game for training (with a note telling people that)
 
 ## Later
 - [ ] Let people log their own trades on the site (no accounts or usernames, weird outliers get flagged)

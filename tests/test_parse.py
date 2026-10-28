@@ -60,6 +60,48 @@ def test_repeated_groups_inline_cells_and_sections():
     assert page.last_updated == "2025-06-26"
 
 
+def test_skips_description_and_location_rows():
+    # Like the Alpha Set page: a description row BEFORE the pictures,
+    # and like adventure pages: a chest location row AFTER the values
+    text = """{|
+! Alpha Sword !! Alpha Helmet
+|-
+| Redeemed from 96 unique Adopt-A-Pets || Redeemed from 150 unique Adopt-A-Pets
+|-
+| [[File:Alpha Sword1.png|thumb]] || [[File:Alphahelm.png|thumb]]
+|-
+| 30 Black [[Rare Long Spiked Collar|Long Collars]] || 10 Black [[Rare Long Spiked Collar|Long Collars]]
+|-
+| Top Left Chest || Top Right Chest
+|}
+"""
+    page = parse_page( "Alpha Set", text )
+    assert [ ( v.variant, v.worth_raw, v.image ) for v in page.variants ] == [
+        ( "Alpha Sword", "30 Black Long Collars", "Alpha Sword1.png" ),
+        ( "Alpha Helmet", "10 Black Long Collars", "Alphahelm.png" ),
+    ]
+
+
+def test_nested_headings_keep_repeated_sections_apart():
+    # Two adventures both have a "Normal Mode Rewards" section with the same column name
+    table = "{|\n! Bunny Fence\n|-\n| [[File:a.png]]\n|-\n| %s\n|}\n"
+    text = ( "==Land Adventures==\n===Return of the Phantoms===\n====Normal Mode Rewards====\n"
+             + table % "A Few RIMs"
+             + "===The Phantom Portal===\n====Normal Mode Rewards====\n"
+             + table % "2-5 Diamonds" )
+    page = parse_page( "Adventure Rewards", text )
+    assert [ ( v.section, v.worth_raw ) for v in page.variants ] == [
+        ( "Land Adventures / Return of the Phantoms / Normal Mode Rewards", "A Few RIMs" ),
+        ( "Land Adventures / The Phantom Portal / Normal Mode Rewards", "2-5 Diamonds" ),
+    ]
+
+
+def test_true_duplicates_get_numbered_not_dropped():
+    text = "{|\n! Blue & Pink !! Blue & Pink\n|-\n| A Few RIMs || 1 RIM\n|}\n"
+    page = parse_page( "Brigade Armor", text )
+    assert [ v.variant for v in page.variants ] == [ "Blue & Pink", "Blue & Pink (2)" ]
+
+
 def test_page_without_tables():
     page = parse_page( "Some Article", "Just prose, no worth table.\n[[Category:Other Pages]]" )
     assert page.variants == []

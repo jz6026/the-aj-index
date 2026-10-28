@@ -85,7 +85,7 @@ def refresh( conn, wiki: Wiki, limit: int | None = None, log=print ) -> dict:
         stats[ "pages" ] += 1
         if not page.variants:
             stats[ "no_table" ].append( title )
-        if store.save_page( conn, page, rev_id, ts ):
+        if store.save_page( conn, page, rev_id, ts, wikitext=text ):
             stats[ "changed" ] += 1
             stats[ "variants" ] += len( page.variants )
         if stats[ "pages" ] % 100 == 0:

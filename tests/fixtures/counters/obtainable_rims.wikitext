@@ -1,0 +1,1064 @@
+''Last Updated October 9, 2026''
+
+''Unobtainable RIMs are located on these pages:''
+
+* ''[[Unobtainable Land RIMs]]''
+* ''[[Unobtainable Ocean RIMs]]''
+
+'''Obtainable RIMs''' are Rare tagged items that are obtainable through adventures or similar means such as the Daily Spin. They are one of the worth counters used on this Wiki, alongside [[Clothing Betas]], [[Den Betas]] and Spikes.
+
+{{Pure}}
+==2012==
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 500px;"
+|-
+! scope="col" |Rare [[Glove]]
+! scope="col" |Rare [[Medusa Mask]]
+! scope="col" |[[Rare Lionfish Fin Armor]] (Underwater)
+! scope="col" |Rare Scary [[Cat Hat]]
+! scope="col" |[[Rare Viking Hat]]
+! scope="col" |Rare Gazelle Horns
+! scope="col" |Rare Tie
+! scope="col" |Rare [[Tiara]]
+! scope="col" |Rare [[Wizard Hat]]
+! scope="col" |Rare [[Jolly Elf Hat]]
+! scope="col" |Rare Spiked Hair
+! scope="col" |Rare [[Pigtails]]
+! scope="col" |Rare [[Heart Locket]]
+! scope="col" |Rare [[Mech Angel Helmet]]
+! scope="col" |Rare [[Mech Angel Wings]]
+! scope="col" |Rare Flower Bracelet 
+! scope="col" |Rare Star Cape 
+! scope="col" |Rare [[Freedom Items|Freedom Mask]]
+! scope="col" |Rare [[Freedom Items|Freedom Cape]]
+! scope="col" |Rare [[Freedom Items|Freedom Bands]]
+! scope="col" |Rare Butterfly Glasses
+! scope="col" |Rare Rhino Helmet
+! scope="col" |Rare Epic Dragon Mask
+! scope="col" |Rare Pirate Bandana (Underwater)
+! scope="col" |Rare Coral Necklace (Underwater)
+! scope="col" |Rare Homemade Wings
+! scope="col" |Rare Seaweed Hair (Underwater)
+! scope="col" |Rare [[Lei]]
+! scope="col" |Rare King's Crown
+! scope="col" |Rare Sailor Hat (Underwater)
+! scope="col" |Rare Arctic Coat
+! scope="col" |Rare [[Arctic Hood]]
+! scope="col" |Rare [[Princess Necklace]]
+! scope="col" |Rare Big Skull
+! scope="col" |Rare Clover Blanket
+! scope="col" |Rare [[Steampunk Goggles]]
+! scope="col" |Rare Mohawk
+! scope="col" |Rare Snowman Mask
+! scope="col" |Rare [[Bat Glasses]]
+! scope="col" |Rare [[Antlers]]
+! scope="col" |Rare [[Reindeer Mask]]
+! scope="col" |Rare Winter Hood
+! scope="col" |Rare Winter Jacket
+! scope="col" |Rare Snow Shoes
+|-
+|February 6, 2012
+|February 13, 2012
+|Febrary 27, 2012
+|March 5, 2012
+|March 12, 2012
+|March 19, 2012
+|March 26, 2012
+|April 2, 2012
+|April 9, 2012
+|April 16, 2012
+|April 23, 2012
+|April 30, 2012
+|May 7, 2012
+|May 14, 2012
+|May 21, 2012
+|May 28, 2012
+|June 4, 2012
+|June 18, 2012 
+|June 25, 2012
+|July 2, 2012
+|July 9, 2012
+|July 16, 2012
+|July 23, 2012
+|July 30, 2012
+|August 6, 2012 
+|August 13, 2012
+|August 20, 2012
+|August 27, 2012
+|September 3, 2012
+|September 10, 2012
+|September 17, 2012
+|September 24, 2012
+|October 1, 2012
+|October 8, 2012 
+|October 29, 2012
+|November 5, 2012
+|November 12, 2012 
+|November 19, 2012
+|November 26, 2012 
+|December 3, 2012
+|December 10, 2012
+|December 17, 2012
+|December 24, 2012
+|December 31, 2012
+|-
+|style="min-width:150px;" |[[File:Rare glove7.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Medusa mask8.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Lionfish Fin Armor Pink.png|thumb|center|90x90px]]
+|style="min-width:150px;" |[[File:Scary Cat Hat (Rare).png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Viking_hat_3.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-84-387688809-rare tie.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-105-923208120-rare wiz.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIMTiara1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-118-1733640512-Rare jolly.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Jolly Elf Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-126-4167657833-Rare pigt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-133-1363214593-Rare heart lock.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-70-791215919-Rare flower b.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RareMechAngelHelmetPNG.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Mech Angel Wings.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-46-3877308183-star cape.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-40-4293981779-freedom m.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Freedom Mask1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Freedom Cape.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Freedom Bands1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-55-758054911-rhino helm.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-135-799822599-epic dra.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-166-150994943-pirate ban.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-179-86927873-coral neckla.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-65-4280027391-homemade win.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-167-488184089-Rare sea.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-83-469703935-Rare lei.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-146-386402312-Rare k.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-217-369625088-Rare sail.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-66-4278648832-Rare arc.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-57-4278660967-Rare Arctic hoo.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-82-4047443798-Rare princ.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-56-4047500017-Rare big sk.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-139-1713057560-Rare clov.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-125-453470230-Rare steam.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-145-402653184-Rare mo.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-123-4278776069-Rare snowma.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-124-18415616-Rare bat .png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-77-67108864-Rare antl.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-119-2751791494-Rare rein.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-202-1761935617-Rare wint.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-201-4278518081-Rare Winter ja.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-148-1764689711-Rare snow s.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:1-25-148-1764689711-Rare Snow Shoes.png|center|thumb|90x90px]]
+|-
+|2-5 Diamonds
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM 
+|1 RIM 
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM 
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM 
+|1 RIM
+|}
+
+==2013==
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 500px;"
+|-
+! scope="col" |Rare Knitted Hat
+! scope="col" |Rare Cozy Shoes
+! scope="col" |Rare Fancy Top Hat
+! scope="col" |Rare Cowboy Hat
+! scope="col" |Rare [[Knight Helmet]]
+! scope="col" |Rare [[Knight Armor]]
+! scope="col" |Rare Firefighter Hat
+! scope="col" |Rare [[Astronaut Helmet]]
+! scope="col" |Rare [[Star Glasses]]
+! scope="col" |Rare Anchor Ballcap (Underwater)
+! scope="col" |Rare [[Ninja Mask]]
+! scope="col" |Rare Lion Hat
+! scope="col" |Rare [[Wild Cupcake Hat|Cupcake Hat]]
+! scope="col" |Rare Sand Dollar Necklace (Underwater)
+! scope="col" |Rare Flower Glasses
+! scope="col" |Rare Winter Blanket
+! scope="col" |Rare Sombrero (Underwater)
+! scope="col" |Rare Camouflage Boots
+! scope="col" |Rare Beret
+! scope="col" |Rare Angel Wings
+! scope="col" |Rare [[Elf Bracelets]]
+! scope="col" |Rare Army Helmet
+! scope="col" |Rare [[Freedom Items|Freedom Glove]]
+! scope="col" |Rare Kelp Skirt (Underwater)
+! scope="col" |Rare [[Baseball Cap]]
+! scope="col" |Rare Baseball Cleats
+! scope="col" |[[Real Musketeer Boots]]
+! scope="col" |Rare [[Backpack]]
+! scope="col" |Rare Cool Hair
+! scope="col" |Rare Bonnet
+! scope="col" |Rare Aviator Hat
+! scope="col" |Rare Royal Cape
+! scope="col" |Rare [[Police Hat]]
+! scope="col" |Rare [[Skull Helmet]]
+! scope="col" |Rare Scary Bat [[Wings]]
+! scope="col" |Rare Pumpkin Head
+! scope="col" |Rare Scary [[Halo]]
+! scope="col" |Rare Scary [[Elf Bracelets]]
+! scope="col" |Rare Fossilized Tooth Necklace (Underwater)
+! scope="col" |Rare Unicorn Horn
+! scope="col" |Rare Old Hood
+! scope="col" |Rare [[Faerie Wings]]
+! scope="col" |Rare Snowflake Cape
+! scope="col" |Rare Jamaaliday [[Top Hat]]
+! scope="col" |Rare Jamaaliday [[Wings]]
+! scope="col" |Rare [[Hood With Feather]]
+! scope="col" |Rare [[Butterfly Wings]]
+|-
+|January 7, 2013
+|January 14, 2013
+|January 21, 2013
+|January 28, 2013
+|February 4, 2013
+|February 11, 2013
+|February 18, 2013
+|February 25, 2013
+|March 4, 2013
+|March 11, 2013 
+|March 18, 2013
+|March 25, 2013
+|April 1, 2013
+|April 8, 2013
+|April 15, 2013
+|April 22, 2013
+|May 6, 2013
+|May 13, 2013
+|May 20, 2013 
+|May 27, 2013
+|June 3, 2013
+|June 24, 2013 
+|July 1, 2013 
+|July 8, 2013
+|July 15, 2013
+|July 22, 2013 
+|July 29, 2013
+|August 5, 2013
+|August 12, 2013
+|August 19, 2013
+|September 2, 2013 
+|September 9, 2013 
+|September 16, 2013
+|September 23, 2013
+|October 7, 2013
+|October 14, 2013
+|October 21, 2013
+|October 28, 2013
+|November 4, 2013
+|November 11, 2013
+|November 18, 2013
+|November 25, 2013
+|December 2, 2013
+|December 9, 2013
+|December 16, 2013
+|December 23, 2013
+|December 30, 2013
+|-
+|style="min-width:150px;" |[[File:Rare Knitted Hat PNG.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Cozy Shoes.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Fancy Top Hat .png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Cowboy Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Knight Helmet 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Knight Armor.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Firefighter Hat 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Astronaut Helmet 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare star glasses.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare anchor ballcap.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Ninja Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Lion Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Cupcake Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Sand Dollar Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Flower Glasses.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Winter Blanket.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Sombrero 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Camouflage Boots.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Beret 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Angel Wings 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Elf Bracelets.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Army Helmet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Freedom Glove 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Kelp Skirt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Baseball Cap 2.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Baseball Cleats.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Real Musketeer Boots.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare backpack.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Cool Hair.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Bonnet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Aviator Hat 2.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Royal Cape .png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Police Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Skull Helmet1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Scary Bat Wings.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Pumpkin Head.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Scary Halo 3.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Scary Elf Bracelets 1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Fossilized Tooth Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Unicorn Horn.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Old Hood PNG.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Faerie Wings 2.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Snowflake Cape png.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Jamaaliday Top Hat PNG.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Jamaaliday Wings PNG.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Hood With Feather.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare butterfly wings.png|center|thumb|90x90px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|A Few RIMs
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM 
+|1 RIM
+|1 RIM
+|1 RIM
+|A Few RIMs
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM 
+|1 RIM 
+|1 RIM 
+|1 RIM 
+|1 RIM
+|1 RIM
+|1 RIM
+|10-15 Diamonds
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|}
+
+==2014==
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 500px;"
+|-
+! scope="col" |Rare [[Spartan Helmet]]
+! scope="col" |Rare [[Spartan Armor]]
+! scope="col" |Rare [[Leg Armor]]
+! scope="col" |Rare Flippers (Underwater)
+! scope="col" |Rare [[Gardening Hat]]
+! scope="col" |Rare Friendship Bracelet
+! scope="col" |Rare Curly Wig
+! scope="col" |Rare Steampunk Monocle
+! scope="col" |Rare Blanket
+! scope="col" |Rare Flag
+! scope="col" |Rare Tuxedo Jacket
+! scope="col" |Rare [[Shark Fin]]
+! scope="col" |Rare Golden Headphones
+! scope="col" |Rare Big [[Jamaaliday Bow|Bow]]
+! scope="col" |Rare [[Leaf Necklace]]
+! scope="col" |Rare Pirate Beard
+! scope="col" |Rare [[Glove]]
+! scope="col" |Rare [[Sunglasses]]
+! scope="col" |Rare [[Elf Helmet]]
+! scope="col" |Rare [[Elf Armor]]
+! scope="col" |Rare Moustache
+! scope="col" |Rare Propeller (Underwater)
+! scope="col" |Rare [[Worn Blanket]]
+! scope="col" |Rare [[Fedora]]
+! scope="col" |Rare [[Freedom Items|Freedom Sword]]
+! scope="col" |Rare [[Freedom Items|Freedom Tie]]
+! scope="col" |Rare Samurai Helmet
+! scope="col" |Rare [[Spiked Mohawk]]
+! scope="col" |Rare Cupcake Hat
+! scope="col" |Rare [[Beard]]
+! scope="col" |[[Jamaaliday Rescue Prizes|Rare Jamaaliday Earmuffs]]
+|-
+|January 6, 2014
+|January 13, 2014
+|January 20, 2014
+|January 27, 2014 
+|February 3, 2014
+|February 10, 2014
+|February 17, 2014
+|February 24, 2014
+|March 3, 2014
+|March 10, 2014
+|March 17, 2014
+|March 24, 2014 
+|March 31, 2014
+|April 7, 2014
+|April 14, 2014
+|April 21, 2014
+|April 28, 2014
+|May 5, 2014
+|May 12, 2014 
+|May 19, 2014
+|May 26, 2014
+|June 2, 2014 
+|June 9, 2014
+|June 16, 2014
+|June 23, 2014
+|June 30, 2014
+|July 7, 2014
+|July 14, 2014
+|September 8, 2014
+|September 22, 2014
+|December 29, 2014 
+|-
+|style="min-width:150px;" |[[File:RIM Spartan Helmet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Spartan Armor.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Leg Armor.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Flippers.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Gardening Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Friendship Bracelet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Curly Wig.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Steampunk Monocle .png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Blanket.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Flag.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:TuxeoJacketLucky.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rim shark fin.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Golden Headphones.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Big Bow .png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Leaf Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Pirate Beard.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare glove7.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rim sunglasses.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Elf Armor Helmet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Elf Armor.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Moustache.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Propeller.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Light Blue Worn.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare fedora.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Freedom Sword.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Freedom Tie1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Samurai Helmet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Spiked Mohawk.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Cupcake Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIMBeard1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare jamaaliday earmuffs.png|center|thumb|90x90px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|A Few RIMs
+|1 RIM
+|1 RIM
+|2-5 Diamonds
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|2-5 Diamonds
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|A Few RIMs
+|1 RIM
+|1 RIM
+|}
+
+==2015==
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 500px;"
+|-
+! scope="col" |Rare [[Deer Antlers]]
+! scope="col" |Rare Winged Shoes
+! scope="col" |Rare Vine Anklet
+! scope="col" |Rare Woven Shoes
+! scope="col" |Rare [[Woven Hat]]
+! scope="col" |Rare Tie-dye Shirt
+! scope="col" |Rare Hula Skirt 
+! scope="col" |Rare Shutter Shades
+! scope="col" |Rare Eagle Hat
+! scope="col" |Rare [[Doctor's Bag]]
+! scope="col" |Rare Stethescope
+! scope="col" |Rare Cowboy Boots 
+! scope="col" |Rare [[Ten Gallon Hat]]
+! scope="col" |Rare [[Bunny Hat]]
+! scope="col" |Rare Wristwatch
+! scope="col" |Rare Square Glasses
+! scope="col" |Rare Panda Hat
+! scope="col" |Rare [[Bowler Hat]]
+! scope="col" |Rare Dragon Mask
+! scope="col" |Rare Mammoth Tusks
+! scope="col" |Rare [[Heart Skull Helmet]]
+! scope="col" |Rare Monster Teeth
+! scope="col" |Rare Pumpkin Mask
+! scope="col" |Rare High Top Sneakers
+! scope="col" |Rare [[Patched Hat]]
+! scope="col" |Rare Longbow
+! scope="col" |Rare Pilgrim Hat
+! scope="col" |Rare Epic Antlers
+! scope="col" |[[Jamaaliday Rescue Prizes|Rare Jamaaliday Princess Necklace]]
+! scope="col" |Rare [[Yeti Face]]
+! scope="col" |Rare [[Reindeer Slippers]]
+! scope="col" |Rare [[Polka Dot Tuxedo]]
+|-
+|January 5, 2015
+|May 4, 2015 
+|May 18, 2015
+|May 25, 2015 
+|June 1, 2015 
+|June 8, 2015
+|June 15, 2015
+|June 22, 2015
+|June 29, 2015
+|July 20, 2015
+|July 27, 2015 
+|August 3, 2015
+|August 10, 2015
+|August 17, 2015
+|August 24, 2015
+|August 31, 2015
+|September 14, 2015
+|September 21, 2015
+|September 28, 2015
+|October 5, 2015
+|October 12, 2015
+|October 19, 2015
+|October 26, 2015
+|November 2, 2015
+|November 9, 2015
+|November 16, 2015
+|November 23, 2015
+|November 30, 2015
+|December 3, 2015
+|December 7, 2015
+|December 14, 2015
+|December 28, 2015
+|-
+|style="min-width:150px;" |[[File:Rare deer antlers.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Winged Shoes.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Vine Anklet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Woven Shoes.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Woven Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Tie-dye Shirt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Hula Skirt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Shutter Shades.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Eagle Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Doctors Bag.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Stethoscope.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Cowboy Boots.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Ten Gallon Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Bunny Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Wristwatch.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Square Glasses.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Panda Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Bowler Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Dragon Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Mammoth Tusks.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Heart Skull Helmet1.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Monster Teeth.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Pumpkin Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM High Top Sneakers.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Patched Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Longbow.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Pilgrim Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Epic Antlers.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare jamaaliday princess necklace.png|90x90px]]
+|style="min-width:150px;" |[[File:RIM Yeti Face.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare reindeer slippers.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Polka Dot Tuxedo.png|center|thumb|90x90px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM 
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|}
+
+==2016 ==
+{| class="article-table article-table-selected" border="0" cellpadding="1" cellspacing="1" style="width: 500px;"
+|-
+! scope="col" |Rare Snowboarding Helmet
+! scope="col" |Rare [[Sparkly Boa]]
+! scope="col" |Rare Turquoise Necklace
+! scope="col" |Rare [[Sparkly Shoes]]
+! scope="col" |Rare [[Ribbon Scarf]] 
+! scope="col" |Rare Dragonfly Wings
+! scope="col" |Rare Fairy Princess Hat
+! scope="col" |Rare [[Ladybug Hat]]
+! scope="col" |Rare [[Sparkly Head Bow]]
+! scope="col" |Rare Clover Tie
+! scope="col" |Rare Shamrock Glasses
+! scope="col" |Rare Horned Leg Pads
+! scope="col" |Rare Musketeer Hat
+! scope="col" |Rare AJ Wristband
+! scope="col" |Rare [[Monster Claws]]
+! scope="col" |Rare Bat Mask
+! scope="col" |Rare [[Pirate Sword]]
+! scope="col" |Rare [[Vampire Mask]]
+! scope="col" |Rare Chef's Hat
+! scope="col" |Rare Turquoise Bracelet
+! scope="col" |Rare Jingle Bell Necklace
+! scope="col" |Rare Candy Cane [[Stylish Striped Tie|Tie]]
+! scope="col" |Rare Charm Bracelet
+|-
+|January 4, 2016
+|January 11, 2016
+|January 18, 2016
+|January 25, 2016 
+|February 1, 2016
+|February 8, 2016
+|February 15, 2016
+|February 22, 2016
+|February 29, 2016
+|March 7, 2016 
+|March 28, 2016
+|May 30, 2016
+|June 20, 2016 
+|September 12, 2016
+|October 3, 2016
+|October 10, 2016
+|October 17, 2016
+|October 25, 2016
+|November 14, 2016
+|November 21, 2016
+|November 28, 2016
+|December 19, 2016
+|December 26, 2016
+|-
+|style="min-width:150px;" |[[File:Rare-Snowboarding-Helmet.png|thumb|center|90x90px]]
+|style="min-width:150px;" |[[File:RIM Sparkly Boa.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Turquoise Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare sparkly shoes 0.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Ribbon Scarf.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Dragonfly WIngs.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Fairy Princess Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare ladybug hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Sparkly Head Bow.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Clover Tie.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Shamrock Glasses.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Horned Leg Pads.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Musketeer Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM AJ Wristband.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare monster claws.png|90x90px|center|thumb]]
+|style="min-width:150px;" |[[File:RIM Bat Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Pirate Sword.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Vampire Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Chef's hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Turquoise Bracelet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Jingle Bell Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Candy Cane Tie.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Charm Bracelet.png|center|thumb|90x90px]]
+|-
+|1 RIM
+|2-5 Diamonds
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|}
+
+==2017==
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 90x900px;"
+|-
+! scope="col" |Rare Moon Necklace
+! scope="col" |Rare [[Sun Necklace]]
+! scope="col" |Rare Pillbox Hat
+! scope="col" |Rare [[Heart Balloon]]
+! scope="col" |Rare Clover Top Hat
+! scope="col" |Rare Butterfly Hair Bow
+! scope="col" |Rare [[Designer Skirt]]
+! scope="col" |Rare Graduation Cap
+! scope="col" |Rare Rope Sandals
+! scope="col" |Rare Seashell Bracelet
+! scope="col" |Rare Pearl Bracelet
+! scope="col" |Rare Burger Hat
+! scope="col" |Rare Violin
+! scope="col" |Rare Floppy Hat
+! scope="col" |Rare [[Monstrous Hair]]
+! scope="col" |Rare Phantom Mask
+! scope="col" |Rare Plaid Shirt
+! scope="col" |Rare Big Hair With Rollers
+! scope="col" |Rare Saxophone
+! scope="col" |Rare Snowflake Crown
+|-
+|January 2, 2017
+|January 9, 2017
+| January 23, 2017
+|February 13, 2017
+|March 6, 2017
+|May 22, 2017
+|May 29, 2017 
+|June 5, 2017
+|June 26, 2017
+|July 3, 2017
+|July 10, 2017
+|August 7, 2017
+|September 4, 2017
+|September 11, 2017
+|October 2, 2017
+|October 9, 2017
+|November 6, 2017
+|November 13, 2017
+|November 20, 2017
+|December 4, 2017
+|-
+|style="min-width:150px;" |[[File:RIM Moon Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Sun Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM PIllbox Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Heart Balloon.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Clover Top Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Butterfly Head Bow.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIMDesignerSkirt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Graduation Cap.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Rope Sandals.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Shell Bracelet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Pearl Bracelet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Burger Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Violin.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Floppy Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Monstrous Hair.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Phantom Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Plaid Shirt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Big Hair with Rollers.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Saxaphone.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Snowflake Crown.png|center|thumb|90x90px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+
+|}
+
+==2018==
+{| class="article-table" border="0" cellspacing="1" cellpadding="1" style="width:100px;"
+|-
+! scope="col" |Rare Old Winter Boots
+! scope="col" |Rare Snowflake Tiara 
+! scope="col" |Rare Snow Hat
+! scope="col" |Rare [[Icicle Horn]]
+! scope="col" |Rare Heart Boots
+! scope="col" |Rare Heart Mittens
+! scope="col" |Rare Clover Bracelet
+! scope="col" |Rare Ballet Shoes
+! scope="col" |Rare [[Fez]]
+! scope="col" |Rare Infinity Glasses
+! scope="col" |Rare Emerald Ring
+! scope="col" |Rare Turtle Shell
+! scope="col" |Rare [[Soccer Ball Mask]]
+! scope="col" |Rare [[Fang Necklace]]
+! scope="col" |Rare [[Straw Hat]]
+! scope="col" |Rare Flowered Cape
+! scope="col" |Rare Squid Hat
+! scope="col" |Rare [[National Honey Bee Day Collection|Bee Antennae]]
+! scope="col" |Rare Silk Scarf
+! scope="col" |Rare Superhero Mask
+! scope="col" |Rare Striped Bow Tie
+! scope="col" |Rare [[Box Head]]
+! scope="col" |Rare Flaming Jack 'O Lantern Mask
+! scope="col" |Rare Flaming Crown
+! scope="col" |Rare Leaf Pattern Skirt 
+! scope="col" |Rare Plaid Blanket
+! scope="col" |Rare Fall [[Designer Skirt]]
+! scope="col" |Rare Jamaaliday Gift Hat 
+|-
+|January 9, 2018 
+|January 16, 2018
+|January 23, 2018
+|January 30, 2018
+|February 20, 2018
+|February 27, 2018
+|March 13, 2018
+|April 17, 2018
+|April 24, 2018
+|May 1, 2018
+|May 8, 2018
+|May 15, 2018
+|May 22, 2018
+|May 29, 2018 
+|June 5, 2018
+|June 18, 2018
+|July 10, 2018
+|August 14, 2018
+|August 28, 2018
+|September 4, 2018
+|September 25, 2018
+|October 9, 2018
+|October 20, 2018
+|October 23, 2018
+|November 13, 2018
+|November 20, 2018
+|November 27, 2018
+|December 25, 2018
+|-
+|style="min-width:150px;" |[[File:RIM Old Winter Boots.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Snowflake Tiara.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare Snow Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Icicle Horn.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Heart Boots.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Heart Mittens.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Clover Anklet.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Ballet Shoes.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Fez.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Infinity Glasses.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Emerald Ring.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Turtle Shell.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Soccer Ball Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Fang Necklace.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Straw Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Flower Cape.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Squid Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Bee Antennae.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Silk Scarf.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Superhero Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Striped Bow Tie.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Box Hat.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Jack-o-lantern Mask.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Flaming Crown.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Leaf Pattern Skirt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Plaid Blanket.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Fall Designer Skirt.png|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:RIM Jamaaliday Gift Hat.png|center|thumb|90x90px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|}
+
+==2021==
+{| class="article-table" border="0" cellspacing="1" cellpadding="1" style="width:100px;"
+|-
+! scope="col" |Rare Silver [[Pandamonium Collection|Panda Paws]]
+! scope="col" |Rare Crimson Topcoat
+! scope="col" |Rare Green Pirate Hat
+! scope="col" |Rare Violet [[Pink Purse| Purse ]]
+! scope="col" |Rare Gold [[Cat Hat]]
+|-
+|August 5, 2021
+|August 5, 2021 
+|August 5, 2021
+|August 5, 2021 
+|August 5, 2021
+|-
+|style="min-width:150px;" |[[File:Rare Silver Panda Paws.png|thumb|center|90x90px]]
+|style="min-width:150px;" |[[File:Rare crimson topcoat.webp|thumb|center|90x90px]]
+|style="min-width:150px;" |[[File:Rare_green_pirate_hat.webp|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare violet purse.webp|center|thumb|90x90px]]
+|style="min-width:150px;" |[[File:Rare gold cat hat .webp|center|thumb|90x90px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|1 RIM
+|}
+
+==2025==
+{| class="article-table" cellspacing="1" cellpadding="1" border="0" style="width: 200px;"
+|-
+!Rare Year of the Snake Scales (Underwater)
+! scope="col" |Rare [[Propeller Hat]] (Underwater)
+! scope="col" |Rare Great White Tooth Necklace (Underwater)
+|-
+|February 3rd, 2025
+|June 2, 2025
+|July 14, 2025
+|-
+|style="min-width:150px;" |[[File:Rare Year of the Snake Scales.png|center|thumb|129x129px]]
+|style="min-width:150px;" |[[File:Rare propeller hat.png|thumb|center|90x90px]]
+|style="min-width:150px;" |[[File:Rare Great White Tooth Necklace.png|thumb|center|90x90px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|}
+
+==2026==
+{| class="article-table" cellspacing="1" cellpadding="1" border="0" style="width: 200px;"
+|-
+! scope="col" |Rare Frosty Starfish Glasses (Underwater)
+! scope="col" |Rare Clover Trident (Underwater)
+! scope="col" |Rare Bright Pirate Hook (Underwater)
+|-
+|January 12th, 2026
+|March 9, 2026
+|June 29th, 2026
+|-
+|style="min-width:150px;" |[[File:Rare Frosty Starfish Glasses.png|center|thumb|119x119px]]
+|style="min-width:150px;" |[[File:Rare Clover Trident.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:Rare Bright Pirate Hook.png|thumb|center|120x120px]]
+|-
+|1 RIM
+|1 RIM
+|1 RIM
+|}
+
+[[Category:Plushies]]
+[[Category:Items]]
+[[Category:Clothing Items]]
+[[Category:Head Items]]
+[[Category:Neck Items]]
+[[Category:Back Items]]
+[[Category:Leg Items]]
+[[Category:Tail Items]]
+[[Category:Land Items]]
+[[Category:Ocean Items]]
+[[Category:Member Items]]
+[[Category:Non-Member Items]]
+[[Category:Obtainable Through The Forgotten Desert]]
+[[Category:Obtainable Through Adventures]]
+[[Category:Adventure Items]]
+[[Category:Steady Value]]
+[[Category:Spring Festival]]
+[[Category:Scam Warning]]
+[[Category:Friendship Festival]]
+[[Category:New Year's]]
+[[Category:Epic Wonders]]
+[[Category:Summer Carnival]]
+[[Category:Diamond Items]]
+[[Category:Lucky Day]]
+[[Category:Sky High]]
+[[Category:Jamaalidays]]
+[[Category:Night of the Phantoms]]
+[[Category:Collections]]
+[[Category:Jamaaliday Rescue]]

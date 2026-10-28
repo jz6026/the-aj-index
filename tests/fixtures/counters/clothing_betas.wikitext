@@ -1,0 +1,54 @@
+''Last Updated June 12, 2026''
+
+''See [[Den Betas]] & [[Extreme Clothing Betas]].''
+
+The '''Clothing Betas''' are a set of items used as currency when trading and shopping. The Clothing Betas did not necessarily have their first or most recent releases during the Beta Testing, but are still deemed to be clothing "betas" by the Animal Jam community.
+
+{| class="article-table" border="0" cellspacing="1" cellpadding="1" style="width:200px;"
+|-
+! scope="col" |[[Fox Hat]]
+! scope="col" |[[Bow and Arrows|Rare Bow and Arrows]]
+! scope="col" |[[Worn Blanket]]
+! scope="col" |[[Mech Angel Helmet]]
+! scope="col" |[[Flower Crown]]
+! scope="col" |'''Non-Glossy''' [[Cupid Wings]]
+|-
+|style="min-width:150px;" |[[File:FoxHat1.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:RareBow5.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:WornBlanket61.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:MechAngelHelmet2.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:FlowerCrown1.png|thumb|center|120x120px]]
+|style="min-width:150px;" |[[File:NonGlossCupidWings1.png|thumb|center|150x150px]]
+|-
+|<center>A Few [[Obtainable RIMs|RIMs]]<center/>
+|<center>A Few [[Obtainable RIMs|RIMs]]<center/>
+|<center>A Few [[Obtainable RIMs|RIMs]]<center/>
+|<center>A Few [[Obtainable RIMs|RIMs]]<center/>
+|<center>A Few Clothing Betas<center/>
+|<center>A Few [[Den Betas]]<center/>
+|-
+|<center>1 Diamond<br>
+'''OR'''<br>15,000 Gems<center/>
+|<center>1 Diamond<br>
+'''OR'''<br>15,000 Gems<center />
+|<center>1 Diamond<br>
+'''OR'''<br>15,000 Gems<center />
+|<center>1 Diamond<br>
+'''OR'''<br>15,000 Gems<center />
+|<center>2-5 Diamonds<center/>
+|<center>5-10 Diamonds<center/>
+|}
+
+[[Category:Items]]
+[[Category:Member Items]]
+[[Category:Non-Member Items]]
+[[Category:Collections]]
+[[Category:Land Items]]
+[[Category:Clothing Items]]
+[[Category:Head Items]]
+[[Category:Back Items]]
+[[Category:Obtainable Through Adventures]]
+[[Category:Obtainable Through The Forgotten Desert]]
+[[Category:Steady Value]]
+[[Category:Scam Warning]]
+[[Category:Clothing Betas]]

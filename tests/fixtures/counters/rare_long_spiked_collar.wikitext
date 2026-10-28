@@ -1,0 +1,71 @@
+''Last Updated October 20, 2026''
+{{Template:PrizeRemoval}}
+
+
+'''Related Links:''' ''[[Rare Short Spiked Collar|Rare Short Spiked Collars]] • [[Rare Short Spiked Wristband|Rare Short Spiked Wristbands]] • [[Rare Long Spiked Wristband|Rare Long Spiked Wristbands]]  • [[Diamond Long Spiked Collars|Diamond Shop Long Spiked Collars]] • [[Rare Mystical Spiked Collar|Promo Rare Mystical Spiked Collar]] • [[Magenta Items|Magenta Rare Long Spiked Collar]] • [[Contest and Event Items#Bright Items|Rare Bright Spiked Collar]] • [[Contest and Event Items#Whiteout Items|Rare Whiteout Spiked Collar]] • [[Spectacular Spikes Collection]]''
+
+The '''Rare Long Spiked Collar''' was released as a Monthly Member Gift in July 2011. This item is commonly referred to as 'Rare Long Spike', 'Rare Long Collar', 'Long Collar'. 'Rare Long', or 'Long'. The Black variant is commonly referred to as 'Black Long,' 'Solid,' or 'Pure'.
+
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 200px;"
+|-
+! scope="col"|Orange
+! scope="col"|Green
+! scope="col"|Yellow
+! scope="col"|Blue
+! scope="col"|Purple
+! scope="col"|Red
+! scope="col"|Black
+|-
+|style="min-width:150px;" |[[File:Rare Orange Long Spiked Collar.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Rare Green Long Spiked Collar.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Rare Yellow Long Spiked Collar.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Rare Blue Long Spiked Collar.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Rare Purple Long Spiked Collar.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Rare Red Long Spiked Collar.png|thumb|center|150px]]
+|style="min-width:150px;" |[[File:Rare Black Long Spiked Collar.png|thumb|center|150px]]
+|-
+|style="text-align:center;"|1 Good [[Rare Short Spiked Collar|Short Collar]] + 1 Bad [[Rare Short Spiked Collar|Short Collar]]
+|style="text-align:center;"|1 Good [[Rare Short Spiked Collar|Short Collar]] + 1 Decent [[Rare Short Spiked Collar|Short Collar]]
+|style="text-align:center;"|1 Bad Long Collar + 1 Good [[Rare Long Spiked Wristband|Long Wrist]]
+|style="text-align:center;"|1 Bad Long Collar + 1 Decent [[Rare Short Spiked Collar|Short Collar]]
+|style="text-align:center;"|1 Bad Long Collar + 1 Good [[Rare Short Spiked Collar|Short Collar]]
+|style="text-align:center;"|2 Bad Long Collars
+|style="text-align:center;"|1 Good Long Collar + add
+|-
+|140-170 Diamonds
+|150-180 Diamonds
+|180-200 Diamonds
+|200-220 Diamonds
+|235-260 Diamonds
+|280-320 Diamonds
+|300-320 Diamonds
+|-
+|Bad
+|Bad
+|Decent
+|Decent
+|Good
+|Good
+|Best
+|}
+{{Template:Plong}}
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 200px;"
+|-
+!scope="col"|Pink
+|-
+|[[File:Rare Pink Long Spiked Collar.png|thumb|center|150px]]
+|-
+|1 Black Long Collar, maybe more
+|-
+|400-450 Diamonds
+|}
+
+[[Category:Spikes]]
+[[Category:Items]]
+[[Category:Neck Items]]
+[[Category:Clothing Items]]
+[[Category:Member Items]]
+[[Category:Land Items]]
+[[Category:Unobtainable Through The Forgotten Desert]]
+[[Category:Unobtainable Through Adventures]]
+[[Category:Steady Value]]

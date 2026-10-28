@@ -1,5 +1,5 @@
-"""Saves everything to SQLite. Every value we ever see is kept along with the wiki
-version it came from, so we get value history (trends!) for free over time."""
+"""SQLite storage. Every value ever seen is kept & stamped with the wiki revision
+it came from, so value history/trends builds up automatically over time"""
 
 from __future__ import annotations
 
@@ -17,7 +17,8 @@ CREATE TABLE IF NOT EXISTS pages (
     rev_timestamp TEXT,             -- when that version was edited
     last_updated  TEXT,             -- the "Last Updated" date on the page
     categories    TEXT,             -- a JSON list
-    fetched_at    TEXT
+    fetched_at    TEXT,
+    wikitext      TEXT              -- the raw page, so we can re-read it later without re-downloading
 );
 
 CREATE TABLE IF NOT EXISTS worth_snapshots (
@@ -48,6 +49,10 @@ def connect( path: str | Path ) -> sqlite3.Connection:
     conn = sqlite3.connect( path )
     conn.row_factory = sqlite3.Row
     conn.executescript( SCHEMA )
+    # databases made before the wikitext column existed get it added here
+    cols = { r[ "name" ] for r in conn.execute( "PRAGMA table_info(pages)" ) }
+    if "wikitext" not in cols:
+        conn.execute( "ALTER TABLE pages ADD COLUMN wikitext TEXT" )
     return conn
 
 
@@ -55,10 +60,14 @@ def known_revisions( conn: sqlite3.Connection ) -> dict[ str, int ]:
     return { r[ "title" ]: r[ "rev_id" ] for r in conn.execute( "SELECT title, rev_id FROM pages" ) }
 
 
-def save_page( conn: sqlite3.Connection, page: ItemPage, rev_id: int, rev_timestamp: str | None ) -> bool:
-    """Saves a page. Returns False (and saves nothing) if we already have this version."""
-    row = conn.execute( "SELECT rev_id FROM pages WHERE title = ?", ( page.title, ) ).fetchone()
+def save_page( conn: sqlite3.Connection, page: ItemPage, rev_id: int, rev_timestamp: str | None,
+               wikitext: str | None = None ) -> bool:
+    """Saves a page. Returns False (and saves nothing new) if we already have this version."""
+    row = conn.execute( "SELECT rev_id, wikitext FROM pages WHERE title = ?", ( page.title, ) ).fetchone()
     if row and row[ "rev_id" ] == rev_id:
+        if wikitext and row[ "wikitext" ] is None:   # fill in the raw text for older databases
+            conn.execute( "UPDATE pages SET wikitext = ? WHERE title = ?", ( wikitext, page.title ) )
+            conn.commit()
         return False
 
     now = datetime.now( timezone.utc ).isoformat( timespec="seconds" )
@@ -70,16 +79,22 @@ def save_page( conn: sqlite3.Connection, page: ItemPage, rev_id: int, rev_timest
          for v in page.variants ],
     )
     conn.execute(
-        """INSERT INTO pages (title, rev_id, rev_timestamp, last_updated, categories, fetched_at)
-           VALUES (?, ?, ?, ?, ?, ?)
+        """INSERT INTO pages (title, rev_id, rev_timestamp, last_updated, categories, fetched_at, wikitext)
+           VALUES (?, ?, ?, ?, ?, ?, ?)
            ON CONFLICT(title) DO UPDATE SET
              rev_id = excluded.rev_id, rev_timestamp = excluded.rev_timestamp,
              last_updated = excluded.last_updated, categories = excluded.categories,
-             fetched_at = excluded.fetched_at""",
-        ( page.title, rev_id, rev_timestamp, page.last_updated, json.dumps( page.categories ), now ),
+             fetched_at = excluded.fetched_at, wikitext = excluded.wikitext""",
+        ( page.title, rev_id, rev_timestamp, page.last_updated, json.dumps( page.categories ), now, wikitext ),
     )
     conn.commit()
     return True
+
+
+def all_wikitext( conn: sqlite3.Connection ) -> dict[ str, str ]:
+    """Every saved page's raw text, by title."""
+    return { r[ "title" ]: r[ "wikitext" ] for r in conn.execute(
+        "SELECT title, wikitext FROM pages WHERE wikitext IS NOT NULL" ) }
 
 
 def export_json( conn: sqlite3.Connection, path: str | Path ) -> int:

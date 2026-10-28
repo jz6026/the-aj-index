@@ -27,6 +27,24 @@ python3 -m ajworth.fetch                  # full refresh (a few minutes; it wait
 python3 -m ajworth.fetch --labels         # every worth label in use, most common first
 ```
 
+Check a trade (the core of the chatbot):
+
+```bash
+python3 -m ajworth.trade "my leap year beard for their pink beard"
+python3 -m ajworth.trade "their solid for my purple long + red long"
+python3 -m ajworth.trade "my blk long for 2 bad longs" --json    # JSON for the website
+python3 -m ajworth.match "lb beard"                              # just find an item
+```
+
+The value ladder (built from the wiki's own counter pages, so run the full fetch first):
+
+```bash
+python3 -m ajworth.ladder                                   # the ladder, cheapest first
+python3 -m ajworth.ladder --place "3 Bad Long Wrists"       # where one label sits
+python3 -m ajworth.ladder --compare "Black Short Collar" "Bad Long Collar"
+python3 -m ajworth.ladder --check                           # labels it can't place yet
+```
+
 Comments (the wiki's informal price log, going back years):
 
 ```bash
@@ -57,6 +75,9 @@ Outputs:
 | `ajworth/parse.py` | Raw page source → one row per item variant (e.g. Beard / Black & White / "A Few RIMs") |
 | `ajworth/fetch.py` | Lists every page in Category:Items, downloads 50 per request, skips unchanged pages |
 | `ajworth/store.py` | Saves to SQLite; only writes new rows when a page actually changed, so history builds up for trend charts |
+| `ajworth/ladder.py` | Reads the wiki's counter pages (RIMs, betas, spikes) and lines every worth label up by the wiki's own prices, so the chatbot can say higher / lower / close |
+| `ajworth/match.py` | Finds items from what people type: slang list (add to `SLANG`!), the wiki's own nicknames, small typos. Asks "which color?" only when colors are worth different things |
+| `ajworth/trade.py` | Splits a trade into give/get, quotes the wiki word for word, and gives a short verdict plus warnings |
 | `ajworth/comments.py` | Pages through each item's comments, scrubs usernames, stores them; re-runs only fetch what's new |
 | `ajworth/tagger.py` | Rule-based tags: sale / sold / iso / trade / question, plus diamond and gem prices. The baseline a trained model has to beat |
 | `ajworth/label.py` | Quick hand-labeling, one comment at a time, saved to `data/labels.csv` |

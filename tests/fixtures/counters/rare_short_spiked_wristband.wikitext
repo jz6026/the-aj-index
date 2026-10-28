@@ -1,0 +1,73 @@
+''Last Updated May 19, 2026''
+
+'''Related Links:'''
+
+*''[[Rare Long Spiked Wristband|Rare Long Spiked Wristbands]]''
+*''[[Rare Short Spiked Collar|Rare Short Spiked Collars]]''
+*''[[Rare Long Spiked Collar|Rare Long Spiked Collars]]''
+*''[[Diamond Shop Spiked Wristbands]]''
+*''[[Magenta Items|Magenta Rare Short Spiked Wristband]]''
+
+''Not to be confused with the [[Spectacular Spikes Collection]].''
+
+The '''Rare Short Spiked Wristband''' was initially released as one of the Monthly Member Gifts during July 2011, and is obtainable as a prize in The Forgotten Desert and Tiki Trouble. It is also commonly referred to as 'Rare Short Wrist,' or 'Short Wrist'.
+
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width: 800px;"
+|-
+! scope="col" |Orange
+! scope="col" |Green
+! scope="col" |Yellow
+! scope="col" |Pink
+! scope="col" |Blue
+! scope="col" |Purple
+! scope="col" |Red
+! scope="col" |Black
+|-
+|style="min-width:150px;" |[[File:Orangewrist.png|thumb|200px|center]]
+|style="min-width:150px;" |[[File:Greenwrist.png|thumb|200px|center]]
+|style="min-width:150px;" |[[File:Yellowwrist.png|thumb|200px|center]]
+|style="min-width:150px;" |[[File:Pinkwrist.png|thumb|200px|center]]
+|style="min-width:150px;" |[[File:Bluewrist.png|thumb|200px|center]]
+|style="min-width:150px;" |[[File:Purplewrist.png|thumb|200px|center]]
+|style="min-width:150px;" |[[File:Redwrist.png|thumb|200px|center]]
+|style="min-width:150px;" |[[File:Black_short_wrist.png|thumb|200px|center]]
+|-
+|4 [[Den Betas]]
+|4 [[Den Betas]]
+|5 [[Den Betas]]
+|5-6 [[Den Betas]]
+|5-6 [[Den Betas]]
+|5-6 [[Den Betas]]
+|5-6 [[Den Betas]]
+|7 [[Den Betas]]
+|-
+|12 Diamonds
+|12 Diamonds
+|15 Diamonds
+|15-18 Diamonds
+|15-18 Diamonds
+|15-18 Diamonds
+|15-18 Diamonds
+|20 Diamonds
+|-
+|Bad
+|Bad
+|Decent
+|Decent
+|Decent
+|Good
+|Good
+|Best
+|}
+
+
+[[Category:Spikes]]
+[[Category:Items]]
+[[Category:Clothing Items]]
+[[Category:Leg Items]]
+[[Category:Member Items]]
+[[Category:Land Items]]
+[[Category:Obtainable Through The Forgotten Desert]]
+[[Category:Obtainable Through Adventures]]
+[[Category:Steady Value]]
+[[Category:Adventure Items]]
