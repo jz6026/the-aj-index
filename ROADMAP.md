@@ -43,6 +43,12 @@ seconds, and gets smarter over time by learning from real trades.
   - Rate limits (like 1 post a minute) + an automatic toxicity check before posting
   - Posts here are fair game for training (with a note telling people that)
 
+## Frontend: terminal style
+- [ ] Resizable panels: quote, trade checker, trade book, chart, movers, tape
+- [ ] Layout + trade book saved in the browser (no account needed)
+- [ ] Phones: same panels as stacked cards
+- [ ] Switch to React for this
+
 ## Later
 - [ ] Let people log their own trades on the site (no accounts or usernames, weird outliers get flagged)
 - [ ] Inventory tracking
