@@ -2,3 +2,5 @@ data/
 .venv/
 __pycache__/
 .pytest_cache/
+infra/cdk.out/
+infra/.venv/

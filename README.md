@@ -12,7 +12,7 @@ Check out [ROADMAP.md](ROADMAP.md) for where this is going.
 ## Setup (Mac)
 
 ```bash
-cd aj-worth
+cd the-aj-index
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -68,6 +68,30 @@ Outputs:
   tagged with the wiki revision it came from. `current_worth` is the latest value per variant.
 - `data/items.json` — current values as one file: the instant, offline lookup cache.
 
+## Website + database (Docker)
+
+Needs [Docker Desktop](https://www.docker.com/products/docker-desktop/). This runs the site the
+same way it runs on AWS: Postgres, the API, and the web page.
+
+```bash
+docker compose up --build -d           # start everything, then open http://localhost:8080
+docker compose run --rm refresh        # pull the wiki's values into Postgres (first time: a few minutes)
+docker compose logs -f api             # watch the API
+docker compose down                    # stop (add -v to also wipe the database)
+```
+
+The API's auto-made docs are at http://localhost:8080/api/docs.
+Everything above (fetch, comments, label) also works on Postgres: set
+`DATABASE_URL=postgresql://aj:aj@localhost:5432/ajindex` or pass `--db`. Without it, it's SQLite like before.
+
+Run the tests on Postgres too (with `docker compose up -d db` running):
+
+```bash
+TEST_DATABASE_URL=postgresql://aj:aj@localhost:5432/ajindex python3 -m pytest -q
+```
+
+Putting it on AWS: see [DEPLOY.md](DEPLOY.md).
+
 ## How it works
 
 | File | Job |
@@ -82,13 +106,17 @@ Outputs:
 | `ajworth/tagger.py` | Rule-based tags: sale / sold / iso / trade / question, plus diamond and gem prices. The baseline a trained model has to beat |
 | `ajworth/label.py` | Quick hand-labeling, one comment at a time, saved to `data/labels.csv` |
 | `ajworth/train.py` | My classifier: word + letter-chunk counts → logistic regression, tested on held-out labels against the rules |
+| `ajworth/db.py` | Opens SQLite or Postgres, so the same code runs on my Mac and on AWS |
+| `ajworth/api.py` | The website's backend (FastAPI): item search, item lookup, and `/api/trade` (runs trade.py). Chatbot goes here later |
+| `web/` | Placeholder page (design TBD!) + the local nginx setup that stands in for CloudFront |
+| `infra/` | The AWS setup as code (CDK), see DEPLOY.md |
 
 ### Comments data
 
 - `comments` table: one row per post, with its date, scrubbed text, tag and price.
 - `listings` view: sale posts, with `sold = 1` when a reply confirms the sale.
 
-**Privacy rule:** usernames are never stored. Author fields are dropped and names are
+**Privacy rule:** usernames scraped from the wiki are never stored. Author fields are dropped and names are
 scrubbed from the text before saving (`[user]` replaces them). Many players are kids.
 Scrubbing is best effort; `--sample` is the quick way to spot-check it.
 

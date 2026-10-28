@@ -41,8 +41,8 @@ class FakeSession:
         return FakeResponse( { "query": { "pages": out } } )
 
 
-def test_history_accumulates_only_on_change( tmp_path ):
-    conn = store.connect( tmp_path / "w.db" )
+def test_history_accumulates_only_on_change( tmp_path, db_target ):
+    conn = store.connect( db_target )
 
     # Day 1: the old version of the page
     s1 = refresh( conn, Wiki( FakeSession( { "Beard": ( 100, OLD_BEARD ) } ), pause=0 ), log=lambda *_: None )

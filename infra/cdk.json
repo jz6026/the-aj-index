@@ -1,0 +1,6 @@
+{
+  "app": "python3 app.py",
+  "context": {
+    "monthly_budget_usd": 50
+  }
+}

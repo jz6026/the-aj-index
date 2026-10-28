@@ -60,8 +60,8 @@ def test_helpers():
     assert norm( "Long  Wrists" ) == "long wrist"
 
 
-def test_store_keeps_wikitext_for_rebuilding( tmp_path ):
-    conn = store.connect( tmp_path / "w.db" )
+def test_store_keeps_wikitext_for_rebuilding( tmp_path, db_target ):
+    conn = store.connect( db_target )
     text = ( FIXTURES / "rare_short_spiked_collar.wikitext" ).read_text()
     store.save_page( conn, parse_page( "Rare Short Spiked Collar", text ), 1, None, wikitext=text )
     assert store.all_wikitext( conn ) == { "Rare Short Spiked Collar": text }

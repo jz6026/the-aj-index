@@ -52,9 +52,9 @@ def test_prepare_normalizes_numbers_names_and_replies():
     assert train.prepare( "Sold!", True ).startswith( train.REPLY_MARK )
 
 
-def test_label_file_roundtrip_and_candidate_mixing( tmp_path ):
+def test_label_file_roundtrip_and_candidate_mixing( tmp_path, db_target ):
     from ajworth import comments
-    conn = comments.connect( tmp_path / "w.db" )
+    conn = comments.connect( db_target )
     conn.executemany(
         "INSERT INTO comments (post_id, thread_id, title, is_reply, created, text, kind, fetched_at) "
         "VALUES (?, ?, 'Beard', 0, '2026-01-01', ?, ?, 'now')",

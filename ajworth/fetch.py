@@ -95,7 +95,7 @@ def refresh( conn, wiki: Wiki, limit: int | None = None, log=print ) -> dict:
 
 def main():
     ap = argparse.ArgumentParser( description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter )
-    ap.add_argument( "--db", default="data/worth.db" )
+    ap.add_argument( "--db", help="SQLite file or postgresql:// URL (default: DATABASE_URL, else data/worth.db)" )
     ap.add_argument( "--json", default="data/items.json", help="lookup cache to write" )
     ap.add_argument( "--limit", type=int, help="only fetch the first N pages (for testing)" )
     ap.add_argument( "--labels", action="store_true", help="print worth labels and exit" )

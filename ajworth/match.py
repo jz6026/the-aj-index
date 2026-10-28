@@ -194,7 +194,7 @@ class Matcher:
 def main():
     ap = argparse.ArgumentParser( description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter )
     ap.add_argument( "query", nargs="+" )
-    ap.add_argument( "--db", default="data/worth.db" )
+    ap.add_argument( "--db", help="SQLite file or postgresql:// URL (default: DATABASE_URL, else data/worth.db)" )
     args = ap.parse_args()
 
     m = Matcher.from_db( store.connect( args.db ) ).find( " ".join( args.query ) )

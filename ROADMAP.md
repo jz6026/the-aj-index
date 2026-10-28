@@ -20,7 +20,9 @@ seconds, and gets smarter over time by learning from real trades.
   - Short answers since you're mid-trade, and always ends with "double-check before you accept"
   - Sticks to trading talk and doesn't ask for any personal info
 - [ ] **Website** with the chat, a shoutout to the wiki, and a note that it's unofficial
-- [ ] **Go live:** data refreshes on its own, item values load fast (S3 + CDN), limits on how much each person can chat
+- [x] **Cloud setup:** Docker + Postgres, AWS stack (ECS + RDS + S3/CloudFront) with a daily wiki refresh. See [DEPLOY.md](DEPLOY.md)
+- [x] API: item search + lookup, and `/api/trade` so the website can use the trade checker
+- [ ] **Go live:** first real deploy, limits on how much each person can chat
 
 ## v2: Learning real rankings
 - [x] Labeling tool + my own classifier (word counts + logistic regression, built with scikit-learn) that gets scored against the rules
@@ -44,10 +46,11 @@ seconds, and gets smarter over time by learning from real trades.
 ## Later
 - [ ] Let people log their own trades on the site (no accounts or usernames, weird outliers get flagged)
 - [ ] Inventory tracking
-- [ ] Move everything to the cloud with Postgres + Docker
+- [ ] Accounts / login (Amazon Cognito: email or Google). Only for features that need it
+  (logged trades, inventory, discussion). 13+ only, and check the kids' privacy rules (COPPA) first
 
 ## Ground rules
 - **Credit the wiki:** its content is CC BY-SA, so the site credits the AJ Item Worth Wiki and anything built from its text gets shared under the same license
 - **Unofficial fan project:** not affiliated with WildWorks, no copied game art or logos (link to images instead)
-- **No usernames, ever:** lots of players are kids
+- **No scraped usernames:** names from the wiki's comments get scrubbed before saving, since lots of players are kids. Display names people pick on my own site are fine
 - Reach out to the wiki admins / Discord before launching

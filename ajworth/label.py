@@ -66,7 +66,7 @@ def candidates( conn, done: set[ str ], seed: int | None = None ) -> list[ dict 
 
 def main():
     ap = argparse.ArgumentParser( description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter )
-    ap.add_argument( "--db", default="data/worth.db" )
+    ap.add_argument( "--db", help="SQLite file or postgresql:// URL (default: DATABASE_URL, else data/worth.db)" )
     ap.add_argument( "--out", default="data/labels.csv" )
     ap.add_argument( "--stats", action="store_true" )
     args = ap.parse_args()
