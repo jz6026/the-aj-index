@@ -255,7 +255,7 @@ def _fmt( lo: float, hi: float ) -> str:
 
 def main():
     ap = argparse.ArgumentParser( description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter )
-    ap.add_argument( "--db", default="data/worth.db" )
+    ap.add_argument( "--db", help="SQLite file or postgresql:// URL (default: DATABASE_URL, else data/worth.db)" )
     ap.add_argument( "--out", default="data/ladder.json" )
     ap.add_argument( "--place", help="put one worth label on the ladder" )
     ap.add_argument( "--compare", nargs=2, metavar=( "A", "B" ), help="is A higher, lower or close to B?" )

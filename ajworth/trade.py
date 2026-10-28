@@ -236,7 +236,7 @@ def render( r: Result ) -> str:
 def main():
     ap = argparse.ArgumentParser( description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter )
     ap.add_argument( "trade", nargs="+" )
-    ap.add_argument( "--db", default="data/worth.db" )
+    ap.add_argument( "--db", help="SQLite file or postgresql:// URL (default: DATABASE_URL, else data/worth.db)" )
     ap.add_argument( "--json", action="store_true", help="print the result as JSON (for the website)" )
     args = ap.parse_args()
 

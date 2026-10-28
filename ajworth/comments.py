@@ -217,7 +217,9 @@ def fetch_item_comments( conn: sqlite3.Connection, wiki: Wiki, title: str ) -> i
 
     conn.execute(
         """INSERT INTO comment_progress (title, newest, total_count, fetched_at) VALUES (?, ?, ?, ?)
-           ON CONFLICT(title) DO UPDATE SET newest = MAX(COALESCE(newest, ''), excluded.newest),
+           ON CONFLICT(title) DO UPDATE SET
+             newest = CASE WHEN excluded.newest > COALESCE(comment_progress.newest, '')
+                           THEN excluded.newest ELSE comment_progress.newest END,
              total_count = excluded.total_count, fetched_at = excluded.fetched_at""",
         ( title, newest, total, now ),
     )
@@ -225,7 +227,7 @@ def fetch_item_comments( conn: sqlite3.Connection, wiki: Wiki, title: str ) -> i
     return written
 
 
-def connect( path ) -> sqlite3.Connection:
+def connect( path=None ) -> sqlite3.Connection:
     conn = store.connect( path )
     conn.executescript( SCHEMA )
     return conn
@@ -233,7 +235,7 @@ def connect( path ) -> sqlite3.Connection:
 
 def main():
     ap = argparse.ArgumentParser( description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter )
-    ap.add_argument( "--db", default="data/worth.db" )
+    ap.add_argument( "--db", help="SQLite file or postgresql:// URL (default: DATABASE_URL, else data/worth.db)" )
     ap.add_argument( "--titles", nargs="+", help="item page titles (default: every item in the database)" )
     ap.add_argument( "--limit", type=int, help="only the first N items" )
     ap.add_argument( "--sample", type=int, help="print N stored comments with their tags and exit" )

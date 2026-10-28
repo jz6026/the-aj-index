@@ -106,8 +106,8 @@ DAY = 86400
 T0 = 1_790_000_000   # just some date in 2026
 
 
-def test_fetch_stores_scrubbed_tagged_and_links_sold_replies( tmp_path ):
-    conn = comments.connect( tmp_path / "w.db" )
+def test_fetch_stores_scrubbed_tagged_and_links_sold_replies( tmp_path, db_target ):
+    conn = comments.connect( db_target )
     data = [
         thread( "a", T0, "Orange - 1 dim @ fuzzyfox", "fuzzyfox", replies=[ ( "Sold!!", "Moonpaw88" ) ] ),
         thread( "b", T0 - DAY, "Pink for 1 dim - Moonpaw88", "Moonpaw88" ),
@@ -128,8 +128,8 @@ def test_fetch_stores_scrubbed_tagged_and_links_sold_replies( tmp_path ):
     assert conn.execute( "SELECT kind FROM comments WHERE thread_id='c'" ).fetchone()[ 0 ] == "iso"
 
 
-def test_rerun_is_incremental( tmp_path ):
-    conn = comments.connect( tmp_path / "w.db" )
+def test_rerun_is_incremental( tmp_path, db_target ):
+    conn = comments.connect( db_target )
     # Six old comments, 10 days apart, the newest one from 60 days ago
     old = [ thread( f"old{i}", T0 - ( 60 + 10 * i ) * DAY, "Pink for 1 dim", "u" ) for i in range( 6 ) ]
     first = FakeCommentsSession( old )

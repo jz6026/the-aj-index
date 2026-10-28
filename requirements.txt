@@ -2,4 +2,10 @@ requests>=2.31
 mwparserfromhell>=0.6
 scikit-learn>=1.4
 joblib>=1.3
+# the website backend
+fastapi>=0.115
+uvicorn>=0.30
+psycopg[binary]>=3.2
+# testing
 pytest>=8
+httpx>=0.27

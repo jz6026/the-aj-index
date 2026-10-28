@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The AJ Index</title>
+  <!-- placeholder page! it's only here to prove the site -> API -> database chain works.
+       the real design is mine to do, so don't get attached to any of this lol -->
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; }
+    input { font: inherit; padding: .4rem; width: 100%; box-sizing: border-box; }
+    li button { font: inherit; background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+    small { color: #666; }
+  </style>
+</head>
+<body>
+  <h1>The AJ Index</h1>
+  <input id="q" placeholder="search an item, like beard" autocomplete="off">
+  <ul id="results"></ul>
+  <div id="item"></div>
+  <p><small>Values from the <a href="https://aj-item-worth.fandom.com">AJ Item Worth Wiki</a> (CC BY-SA).
+    Unofficial fan project, not affiliated with WildWorks.</small></p>
+
+  <script>
+    const $ = ( id ) => document.getElementById( id );
+    let timer;
+
+    $( "q" ).addEventListener( "input", () => {
+      clearTimeout( timer );                       // wait till they stop typing for a sec
+      timer = setTimeout( search, 250 );
+    } );
+
+    async function search() {
+      const q = $( "q" ).value.trim();
+      $( "results" ).replaceChildren();
+      if ( !q ) return;
+      const res = await fetch( "/api/items?q=" + encodeURIComponent( q ) );
+      const { results } = await res.json();
+      for ( const r of results ) {
+        const li = document.createElement( "li" );
+        const b = document.createElement( "button" );
+        b.textContent = r.title;
+        b.onclick = () => show( r.title );
+        li.append( b );
+        $( "results" ).append( li );
+      }
+    }
+
+    async function show( title ) {
+      const res = await fetch( "/api/items/" + encodeURIComponent( title ) );
+      const item = await res.json();
+      const box = $( "item" );
+      box.replaceChildren();                       // textContent everywhere = no sneaky HTML from the data
+      const h = document.createElement( "h2" );
+      h.textContent = item.title;
+      box.append( h );
+      const ul = document.createElement( "ul" );
+      for ( const v of item.variants ) {
+        const li = document.createElement( "li" );
+        li.textContent = ( v.section ? v.section + " / " : "" ) + v.variant + ": " + v.worth;
+        ul.append( li );
+      }
+      box.append( ul );
+      const a = document.createElement( "a" );
+      a.href = item.wiki_url;
+      a.textContent = "see it on the wiki";
+      box.append( a );
+    }
+  </script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-"""SQLite storage. Every value ever seen is kept & stamped with the wiki revision
+"""SQLite (or Postgres, see db.py) storage. Every value ever seen is kept & stamped with the wiki revision
 it came from, so value history/trends builds up automatically over time"""
 
 from __future__ import annotations
@@ -8,6 +8,7 @@ import sqlite3
 from datetime import datetime, timezone
 from pathlib import Path
 
+from . import db
 from .parse import ItemPage
 
 SCHEMA = """
@@ -44,12 +45,16 @@ JOIN pages p ON p.title = s.title AND p.rev_id = s.rev_id;
 """
 
 
-def connect( path: str | Path ) -> sqlite3.Connection:
-    Path( path ).parent.mkdir( parents=True, exist_ok=True )
-    conn = sqlite3.connect( path )
-    conn.row_factory = sqlite3.Row
+def connect( path: str | Path | None = None ) -> sqlite3.Connection:
+    """Opens the database (a SQLite file or a postgresql:// URL, see db.py) and makes
+    sure the tables exist. No path = whatever db.default_target() picks."""
+    conn = db.connect( path )
     conn.executescript( SCHEMA )
     # databases made before the wikitext column existed get it added here
+    if db.dialect( conn ) == "postgres":
+        conn.execute( "ALTER TABLE pages ADD COLUMN IF NOT EXISTS wikitext TEXT" )
+        conn.commit()
+        return conn
     cols = { r[ "name" ] for r in conn.execute( "PRAGMA table_info(pages)" ) }
     if "wikitext" not in cols:
         conn.execute( "ALTER TABLE pages ADD COLUMN wikitext TEXT" )

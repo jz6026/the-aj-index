@@ -1,0 +1,56 @@
+# Runs the whole site on my Mac, set up the same way it runs on AWS:
+#   db      Postgres (RDS on AWS)
+#   api     the Python backend (ECS on AWS)
+#   web     the site + /api forwarding (S3 + CloudFront on AWS)
+#   refresh the wiki fetch job (a daily scheduled ECS task on AWS)
+#
+#   docker compose up --build              # then open http://localhost:8080
+#   docker compose run --rm refresh        # pull values from the wiki into Postgres
+#   docker compose down                    # stop (add -v to also wipe the database)
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: aj
+      POSTGRES_PASSWORD: aj          # local only, the real one lives in AWS Secrets Manager
+      POSTGRES_DB: ajindex
+    ports:
+      - "5432:5432"                  # so tests / psql on my Mac can reach it too
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aj -d ajindex"]
+      interval: 2s
+      retries: 15
+
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql://aj:aj@db:5432/ajindex
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    image: nginx:1.27-alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./web/index.html:/usr/share/nginx/html/index.html:ro
+      - ./web/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - api
+
+  refresh:
+    build: .
+    command: ["python", "-m", "ajworth.fetch"]
+    environment:
+      DATABASE_URL: postgresql://aj:aj@db:5432/ajindex
+    depends_on:
+      db:
+        condition: service_healthy
+    profiles: ["jobs"]               # only runs when you ask: docker compose run --rm refresh
+
+volumes:
+  pgdata:
